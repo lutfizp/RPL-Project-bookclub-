@@ -1,34 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import "./App.css";
+import LandingPage from "./Views/LandingPage";
+import AboutPage from "./Views/AboutPage";
+import ProgramPage from "./Views/ProgramPage";
+import UpdatePage from "./Views/UpdatePage";
+import JoinPage from "./Views/JoinPage";
 
-function App() {
-  return (
-    <div className="App">
-      <div className="w-64 carousel rounded-box">
-  <div className="carousel-item w-full">
-    <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
-  </div> 
-  <div className="carousel-item w-full">
-    <img src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
-  </div> 
-  <div className="carousel-item w-full">
-    <img src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
-  </div> 
-  <div className="carousel-item w-full">
-    <img src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
-  </div> 
-  <div className="carousel-item w-full">
-    <img src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
-  </div> 
-  <div className="carousel-item w-full">
-    <img src="https://daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
-  </div> 
-  <div className="carousel-item w-full">
-    <img src="https://daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
-  </div>
-</div> 
-     </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <Routes>
+            <Route exact path="/" element={<LandingPage />} />
+          </Routes>
+          <Routes>
+            <Route exact path="/About" element={<AboutPage />} />
+          </Routes>
+          <Routes>
+            <Route exact path="/Program" element={<ProgramPage />} />
+          </Routes>
+          <Routes>
+            <Route exact path="/Update" element={<UpdatePage/>} />
+          </Routes>
+          <Routes>
+            <Route exact path="/JoinNow" element={<JoinPage/>} />
+          </Routes>
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;

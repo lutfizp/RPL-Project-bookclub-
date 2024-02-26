@@ -1,0 +1,28 @@
+.App {
+    background-color: #f0f2f5;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+    width: auto;
+}
+
+#sidebar-multi-level-sidebar {
+  transition: transform 0.3s ease-in-out; /* You can adjust the duration and easing function */
+}
+
+.sidebar-hidden {
+  transform: translateX(-100%);
+}
+
+canvas.react-pdf__Page__canvas {
+  margin-bottom: 5px;
+  height: auto;
+  width: auto;
+  position: relative;
+}
+
+.react-pdf__Page__textcontent {
+  position: absolute;
+  top: 50%;
+  left: 800px;
+}
