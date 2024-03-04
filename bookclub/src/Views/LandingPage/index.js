@@ -51,22 +51,21 @@ const LandingPage = () => {
   return (
     <div className="HomePage">
       <div className="navbar flex bg-rose-500 fixed z-10 rounded-b-lg w-full">
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, x: 20 }}
-          transition={{ ease: "easeOut", duration: 1 }}
-          className="container flex justify-center"
+          <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1, x: 20 }}
+        transition={{ ease: "easeOut", duration: 1 }}
+        className="container flex justify-center"
+      >
+        <motion.a
+          href="/About"
+          className="relative px-2 group hover:text-white"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 1.3 }}
+          transition={{ ease: "easeOut", duration: 0.3 }}
         >
-          <motion.a
-           href="/About"
-            className="px-2 group hover:text-white"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 1.3 }}
-            transition={{ ease: "easeOut", duration: 0.3 }}
-          >
-            About
-            <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
-            
+          About
+          <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
           </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
