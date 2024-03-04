@@ -50,22 +50,23 @@ const LandingPage = () => {
   }, [control5, inView5]);
   return (
     <div className="HomePage">
-      <div className="navbar flex bg-rose-500 fixed z-10 rounded-b-lg w-full">
-          <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1, x: 20 }}
-        transition={{ ease: "easeOut", duration: 1 }}
-        className="container flex justify-center"
-      >
-        <motion.a
-          href="/About"
-          className="relative px-2 group hover:text-white"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 1.3 }}
-          transition={{ ease: "easeOut", duration: 0.3 }}
+      <div className="navbar flex fixed z-10 rounded-b-lg w-full" style={{ backgroundColor: '#C8AE7D' }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1, x: 20 }}
+          transition={{ ease: "easeOut", duration: 1 }}
+          className="container flex justify-center"
         >
-          About
-          <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
+          <motion.a
+           href="/About"
+            className="px-2 group hover:text-white"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 1.3 }}
+            transition={{ ease: "easeOut", duration: 0.3 }}
+          >
+            About
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
+            
           </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
@@ -115,7 +116,7 @@ const LandingPage = () => {
       </div>
       <div className="max-h-screen carousel carousel-vertical max-w-screen flex flex-col pt-16">
         <div
-          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#F8EFE8] from-80% to-[#FFFFFF] flex"
+          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#F8EFE8] from-80% to-[#F8F0E5] flex"
           id="section-1"
           ref={ref1}
         >
@@ -127,7 +128,7 @@ const LandingPage = () => {
           >
             <div className="hero-content flex-col lg:flex-col">
               <div>
-                <h1 className="text-5xl font-bold animate-fade-up">
+                <h1 className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848"}}>
                   Life At Serambi Buku
                 </h1>
               </div>
@@ -136,7 +137,8 @@ const LandingPage = () => {
                 className="max-w-md sm:max-w-sm sm:max-h-sm rounded-lg"
                 alt="About GIF"
               />
-              <p className="sm:max-w-sm sm:max-h-sm py-6 text-justify animate-fade-up">
+              <p className="sm:max-w-sm sm:max-h-sm py-2 text-justify animate-fade-up"
+              style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic'}}>
               Menjadi member di sebuah komunitas produktif merupakan 
               pilihan yang terbaik bagi anda untuk menemukan jalan 
               perubahan di masa yang akan mendatang. Mengapa?
