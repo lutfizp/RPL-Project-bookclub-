@@ -129,19 +129,18 @@ const LandingPage = () => {
             <div className="hero-content flex-col lg:flex-col">
               <div>
                 <h1 className="text-5xl font-bold animate-fade-up">
-                  Apa itu DMS ?
+                  Life At Serambi Buku
                 </h1>
               </div>
               <img
-                src="images/about.gif"
+                src="images/life_at_SerambiBuku.png"
                 className="max-w-md sm:max-w-sm sm:max-h-sm rounded-lg"
                 alt="About GIF"
               />
               <p className="sm:max-w-sm sm:max-h-sm py-6 text-justify animate-fade-up">
-                Document Management System (DMS) atau Sistem Manajemen Dokumen
-                adalah sistem yang membantu kita mengatur dokumen dari awal
-                sampai akhir, semua secara digital. DMS mempermudah kita dalam
-                membuat dokumen, meninjau, menerbitkan, dan menyimpannya.
+              Menjadi member di sebuah komunitas produktif merupakan 
+              pilihan yang terbaik bagi anda untuk menemukan jalan 
+              perubahan di masa yang akan mendatang. Mengapa?
               </p>
             </div>
           </motion.div>
