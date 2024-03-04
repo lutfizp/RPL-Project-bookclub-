@@ -11,7 +11,7 @@ function JoinPage() {
 
   return (
     <div className="App">
-      <div className="navbar flex bg-rose-500 fixed z-25 rounded-b-lg w-full">
+      <div className="navbar flex bg-amber-50 fixed z-25 rounded-b-lg w-full">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, x: 20 }}
@@ -20,7 +20,7 @@ function JoinPage() {
         >
           <motion.a
            href="/About"
-            className="px-2 group hover:text-white"
+            className="px-2 group hover:text-yellow-950"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
             transition={{ ease: "easeOut", duration: 0.3 }}
@@ -32,7 +32,7 @@ function JoinPage() {
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
             href="Program"
-            className="px-2 group hover:text-white"
+            className="px-2 group text-yellow-950"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
             transition={{ ease: "easeOut", duration: 0.3 }}
@@ -43,7 +43,7 @@ function JoinPage() {
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
             href="/Update"
-            className="px-2 group hover:text-white"
+            className="px-2 group hover:text-yellow-950"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
             transition={{ ease: "easeOut", duration: 0.3 }}
@@ -54,7 +54,7 @@ function JoinPage() {
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
             href="JoinPage"
-            className="px-2 group hover:text-white"
+            className="px-2 group hover:text-yellow-950"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
             transition={{ ease: "easeOut", duration: 0.3 }}
@@ -65,7 +65,7 @@ function JoinPage() {
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
             href="/"
-            className="px-2 group hover:text-white"
+            className="px-2 group hover:text-yellow-950"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
             transition={{ ease: "easeOut", duration: 0.3 }}
