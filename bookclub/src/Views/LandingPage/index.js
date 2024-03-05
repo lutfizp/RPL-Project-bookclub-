@@ -63,6 +63,7 @@ const LandingPage = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
             transition={{ ease: "easeOut", duration: 0.3 }}
+            style={{fontFamily: 'kaisei tokumin'}}
             >
             About
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
@@ -79,6 +80,7 @@ const LandingPage = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
             transition={{ ease: "easeOut", duration: 0.3 }}
+            style={{fontFamily: 'kaisei tokumin'}}
           >
             Program
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
@@ -90,6 +92,7 @@ const LandingPage = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
             transition={{ ease: "easeOut", duration: 0.3 }}
+            style={{fontFamily: 'kaisei tokumin'}}
           >
             Update
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
@@ -101,6 +104,7 @@ const LandingPage = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
             transition={{ ease: "easeOut", duration: 0.3 }}
+            style={{fontFamily: 'kaisei tokumin'}}
           >
             Join Now
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
@@ -112,6 +116,7 @@ const LandingPage = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
             transition={{ ease: "easeOut", duration: 0.3 }}
+            style={{fontFamily: 'kaisei tokumin'}}
           >
             Home
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
@@ -137,20 +142,21 @@ const LandingPage = () => {
                 </h1>
                 <p className="sm:max-w-sm sm:max-h-sm py-3 text-justify animate-fade-up"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
                   Menjadi member di sebuah komunitas produktif salah satunya adalah member 
-                  di klub buku merupakan pilihan yang terbaik bagi anda untuk menemukan 
+                  di klub buku merupakan pilihan terbaik bagi anda untuk menemukan 
                   jalan perubahan di masa yang akan mendatang. Mengapa?
                 </p>
                 <a
-                  href="/paneladminpage"
-                  className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-black hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
-                  style={{ marginRight: '190px' }}
+                  href="/About/LifeAtBookClub"
+                  className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
+                  style={{ marginRight: '190px', color:"#484848" }}
                 >
                   See More
                 </a>
                 <a
                   href="/JoinNow"
-                  className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-black hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
-                >
+                  className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
+                  style={{ color:"#484848" }}
+                > 
                   Join Now!
                 </a>
               </div>
@@ -161,26 +167,52 @@ const LandingPage = () => {
                 style={{ width: '500px', height: '270px' }}
               />
             </div>
+            <div style={{ 
+              width: '1000px', 
+              height: '160px', 
+              backgroundColor: '#C8AE7D', 
+              marginTop: '400px', 
+              position: "sticky",
+              borderTopLeftRadius: '20px',
+              borderTopRightRadius: '20px' }}>  
+            </div>
+            <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '340px', position: 'relative'}}>
+                  What They Say About us?
+            </h1>
+            <p style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '22px', marginTop: '440px', position: 'relative'}}
+            > Menjadi bagian dari kami adalah perubahan.
+            </p>
           </motion.div>
         </div>
         <div
-          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFFFFF] from-95% to-[#E3C4CC] flex"
+          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#F8F0E5] from-95% to-[#F8F0E5] flex"
           id="section-2"
           ref={ref2}
         >
+
           <motion.div
             className="hero min-h-screen"
             variants={boxVariant}
             initial="hidden"
             animate={control2}
-          >
+          > 
+            <div style={{ 
+              width: '1000px', 
+              height: '600px', 
+              backgroundColor: '#C8AE7D', 
+              marginBottom: '900px', 
+              position: "sticky",
+              borderBottomLeftRadius: '20px',
+              borderBottomRightRadius: '20px' }}>
+            </div>
+
             <div className="hero-content flex-col lg:flex-col">
               <img
                 src="images/upload.gif"
                 className="max-w-lg sm:max-w-sm sm:max-h-sm sm:mt-8 rounded-lg"
                 alt="Upload GIF"
-              />
-              <div className="mt-40 sm:mt-16">
+              /> 
+              <div className="mt-40 sm:mt-16"> 
                 <h1 className="sm:max-w-sm sm:max-h-sm text-5xl font-bold">
                   Upload Dokumen!
                 </h1>
