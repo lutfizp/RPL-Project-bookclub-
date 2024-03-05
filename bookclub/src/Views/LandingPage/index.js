@@ -69,7 +69,7 @@ const LandingPage = () => {
             <div class="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block">
                 <a href="/About/VisiMisi" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Visi Misi</a>
                 <a href="/About/LifeAtBookClub" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Life At Book Club</a>
-                <a href="/About/SupportUs" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Support us!</a>
+                <a href="/Vision" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Vision</a>
             </div>
             </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
@@ -82,11 +82,6 @@ const LandingPage = () => {
           >
             Program
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
-            <div class="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block">
-                <a href="/Program/BookTalk" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">BookTalk, Discussion, Bootcamp</a>
-                <a href="/Program/Competition" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Competition</a>
-                <a href="/Program/Freebies" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Freebies</a>
-            </div>
           </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
@@ -135,23 +130,36 @@ const LandingPage = () => {
             initial="hidden"
             animate={control1}
           >
-            <div className="hero-content flex-col lg:flex-col">
-              <div>
-                <h1 className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848"}}>
-                  Life At Serambi Buku
+            <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '-100px' }}>
+              <div className="md:pr-20 animate-fade-left" style={{ flex: 30 }}>
+                <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px'}}>
+                  Life at Serambi Buku
                 </h1>
+                <p className="sm:max-w-sm sm:max-h-sm py-3 text-justify animate-fade-up"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
+                  Menjadi member di sebuah komunitas produktif salah satunya adalah member 
+                  di klub buku merupakan pilihan yang terbaik bagi anda untuk menemukan 
+                  jalan perubahan di masa yang akan mendatang. Mengapa?
+                </p>
+                <a
+                  href="/paneladminpage"
+                  className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-black hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
+                  style={{ marginRight: '190px' }}
+                >
+                  See More
+                </a>
+                <a
+                  href="/JoinNow"
+                  className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-black hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
+                >
+                  Join Now!
+                </a>
               </div>
               <img
                 src="images/life_at_SerambiBuku.png"
-                className="max-w-md sm:max-w-sm sm:max-h-sm rounded-lg"
+                //className="max-w-full sm:max-w-sm sm:max-h-sm rounded-lg"
                 alt="About GIF"
+                style={{ width: '500px', height: '270px' }}
               />
-              <p className="sm:max-w-sm sm:max-h-sm py-2 text-justify animate-fade-up"
-              style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic'}}>
-              Menjadi member di sebuah komunitas produktif merupakan 
-              pilihan yang terbaik bagi anda untuk menemukan jalan 
-              perubahan di masa yang akan mendatang. Mengapa?
-              </p>
             </div>
           </motion.div>
         </div>
@@ -204,7 +212,7 @@ const LandingPage = () => {
                 className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
                 alt="Stamp GIF"
               />
-              <div className="md:pl-12 animate-fade-right">
+              <div className="md:pl-12 animate-fade-left">
                 <h1 className="sm:max-w-sm sm:max-h-sm text-5xl font-bold">
                   Single Stamp Feature!
                 </h1>
