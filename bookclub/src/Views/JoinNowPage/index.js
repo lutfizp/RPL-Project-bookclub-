@@ -26,7 +26,6 @@ function JoinNowPage() {
             transition={{ ease: "easeOut", duration: 0.3 }}
             style={{fontFamily: 'kaisei tokumin'}}
           >
-            Home
             About
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
             
@@ -57,20 +56,20 @@ function JoinNowPage() {
           </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
-            href="JoinPage"
-            className="px-2 group hover:text-yellow-950"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 1.3 }}
-            transition={{ ease: "easeOut", duration: 0.3 }}
-            style={{fontFamily: 'kaisei tokumin'}}
-          
-          >
-          </motion.a>
-        </motion.div>
+                href="/"
+                className="px-2 group hover:text-white"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 1.3 }}
+                transition={{ ease: "easeOut", duration: 0.3 }}
+            >
+                Home
+                <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
+            </motion.a>
+          </motion.div>
       </div>
-      <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '-100px' }}>
-          <div className="md:pr-20 animate-fade-left" style={{ flex: 30 }}>
-            <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px'}}>
+          <div className="hero-content flex-col lg:flex-col">
+          <div className="mt-40 sm:mt-16">
+            <h1 className="sm:max-w-sm sm:max-h-sm text-5xl font-bold">
                   Life at Serambi Buku
             </h1>
           <p className="text-justify">
