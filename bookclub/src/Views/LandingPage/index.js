@@ -75,7 +75,7 @@ const LandingPage = () => {
             </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
-            href="Program"
+            href="/Program"
             className="px-2 group hover:text-white"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
@@ -99,7 +99,7 @@ const LandingPage = () => {
           </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
-            href="JoinNow"
+            href="/JoinNow"
             className="px-2 group hover:text-white"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
