@@ -11,7 +11,7 @@ import BookTalkPage from "./Views/ProgramPage/BookTalkPage";
 import CompetitionPage from "./Views/ProgramPage/CompetitionPage"; 
 import FreebiesPage from "./Views/ProgramPage/FreebiesPage"; 
 import UpdatePage from "./Views/UpdatePage";
-import JoinPage from "./Views/JoinPage";
+import JoinNowPage from "./Views/JoinNowPage";
 
 class App extends Component {
   render() {
@@ -29,7 +29,7 @@ class App extends Component {
             <Route exact path="/Program/Competition" element={<CompetitionPage />} />
             <Route exact path="/Program/Freebies" element={<FreebiesPage />} />
             <Route exact path="/Update" element={<UpdatePage />} />
-            <Route exact path="/JoinNow" element={<JoinPage />} />
+            <Route exact path="/JoinNow" element={<JoinNowPage />} />
           </Routes>
         </div>
       </Router>

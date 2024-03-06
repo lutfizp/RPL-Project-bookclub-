@@ -12,8 +12,8 @@ function CompetitionPage() {
                 animate={inView ? { opacity: 1 } : { opacity: 0 }}
                 transition={{ duration: 0.5 }}
             >
-                <h1>Welcome to Book Talk Page</h1>
-                <p>This is the content of the Book Talk page.</p>
+                <h1>Welcome to Competition Page</h1>
+                <p>This is the content of the Competition page.</p>
             </motion.div>
         </div>
     );
