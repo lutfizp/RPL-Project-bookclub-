@@ -175,10 +175,9 @@ const LandingPage = () => {
               width: '1000px', 
               height: '160px', 
               backgroundColor: '#C8AE7D', 
-              marginTop: '400px', 
+              marginTop: '380px', 
               position: "sticky",
-              borderTopLeftRadius: '20px',
-              borderTopRightRadius: '20px' }}>  
+              borderRadius: '30px' }}>  
             </div>
             <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '340px', position: 'relative'}}>
                   What They Say About us?
@@ -199,35 +198,39 @@ const LandingPage = () => {
             variants={boxVariant}
             initial="hidden"
             animate={control2}
-          > 
-            <div style={{ 
-              width: '1000px', 
-              height: '600px', 
-              backgroundColor: '#C8AE7D', 
-              marginBottom: '900px', 
-              position: "sticky",
-              borderBottomLeftRadius: '20px',
-              borderBottomRightRadius: '20px' }}>
-            </div>
-
-            <div className="hero-content flex-col lg:flex-col">
-              <img
-                src="images/upload.gif"
-                className="max-w-lg sm:max-w-sm sm:max-h-sm sm:mt-8 rounded-lg"
-                alt="Upload GIF"
-              /> 
-              <div className="mt-40 sm:mt-16"> 
-                <h1 className="sm:max-w-sm sm:max-h-sm text-5xl font-bold">
-                  Upload Dokumen!
-                </h1>
-                <p className="sm:max-w-sm sm:max-h-sm py-6 text-justify">
-                  Kami menyediakan fasilitas untuk mengunggah dokumen, yang
-                  nantinya akan disimpan secara aman di dalam basis data kami.
-                  Dengan dukungan keamanan yang solid, dokumen yang diunggah
-                  dapat dipertahankan integritas dan kerahasiaannya di dalam
-                  sistem kami.
-                </p>
+          >
+            <div className="hero-content flex-col lg:flex-row">  
+              <div className="md:pr-20 animate-fade-left">
+                <div style={{ 
+                  width: '450px', 
+                  height: '150px', 
+                  backgroundColor: '#C8AE7D', 
+                  marginTop: '55px', 
+                  position: "sticky",
+                  borderRadius: '30px' }}>  
+                </div>
+                <div style={{ 
+                  width: '450px', 
+                  height: '150px', 
+                  backgroundColor: '#C8AE7D', 
+                  marginTop: '10px', 
+                  position: "sticky",
+                  borderRadius: '30px' }}>  
+                </div>
+                <div style={{ 
+                  width: '450px', 
+                  height: '150px', 
+                  backgroundColor: '#C8AE7D', 
+                  marginTop: '10px', 
+                  position: "sticky",
+                  borderRadius: '30px' }}>  
+                </div>
               </div>
+              <img
+                src="images/gambar1.png"
+                className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
+                alt="Stamp GIF"
+              />
             </div>
           </motion.div>
         </div>
