@@ -175,14 +175,14 @@ const LandingPage = () => {
               width: '1000px', 
               height: '160px', 
               backgroundColor: '#C8AE7D', 
-              marginTop: '380px', 
+              marginTop: '400px', 
               position: "sticky",
-              borderRadius: '30px' }}>  
+              borderRadius: '20px' }}>  
             </div>
-            <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '340px', position: 'relative'}}>
+            <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '350px', position: 'relative'}}>
                   What They Say About us?
             </h1>
-            <p style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '22px', marginTop: '440px', position: 'relative'}}
+            <p style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '22px', marginTop: '450px', position: 'relative'}}
             > Menjadi bagian dari kami adalah perubahan.
             </p>
           </motion.div>
@@ -198,40 +198,47 @@ const LandingPage = () => {
             variants={boxVariant}
             initial="hidden"
             animate={control2}
-          >
-            <div className="hero-content flex-col lg:flex-row">  
-              <div className="md:pr-20 animate-fade-left">
+          > 
+
+            <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '50px' }}>
+              <div className="mt-40 sm:mt-16"> 
                 <div style={{ 
-                  width: '450px', 
-                  height: '150px', 
+                  width: '400px', 
+                  height: '140px', 
                   backgroundColor: '#C8AE7D', 
-                  marginTop: '55px', 
+                  marginTop: '-60px', 
                   position: "sticky",
-                  borderRadius: '30px' }}>  
+                  borderRadius: '20px' }}> 
                 </div>
+
                 <div style={{ 
-                  width: '450px', 
-                  height: '150px', 
+                  width: '400px', 
+                  height: '140px', 
                   backgroundColor: '#C8AE7D', 
                   marginTop: '10px', 
                   position: "sticky",
-                  borderRadius: '30px' }}>  
+                  borderRadius: '20px' }}> 
                 </div>
+
                 <div style={{ 
-                  width: '450px', 
-                  height: '150px', 
+                  width: '400px', 
+                  height: '140px', 
                   backgroundColor: '#C8AE7D', 
                   marginTop: '10px', 
                   position: "sticky",
-                  borderRadius: '30px' }}>  
+                  borderRadius: '20px' }}> 
                 </div>
               </div>
               <img
                 src="images/gambar1.png"
-                className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
-                alt="Stamp GIF"
+                className="max-w-full sm:max-w-sm sm:max-h-sm rounded-lg"
+                alt="About GIF"
+                style={{ width: '350px', height: '440px', marginLeft: '20px' }}
               />
             </div>
+            <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '20px', marginTop: '-350px', position: 'sticky', marginRight: '380px'}}>
+                  Arell Saverro
+            </h1>
           </motion.div>
         </div>
         <div
