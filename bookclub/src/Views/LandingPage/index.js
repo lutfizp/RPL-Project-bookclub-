@@ -291,31 +291,31 @@ const LandingPage = () => {
                   src="images/cnbc.png"
                   className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
                   alt="Stamp GIF"
-                  style={{ width: '240px', height: '120px', marginLeft: '-90px' }}
+                  style={{ width: '130px', height: '120px', marginLeft: '-5px' }}
                 />
                 <img
                   src="images/gramedia.png"
                   className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
                   alt="Stamp GIF"
-                  style={{ width: '130px', height: '120px', marginRight: '10px' }}
+                  style={{ width: '130px', height: '120px', marginLeft: '40px' }}
                 />
                 <img
                   src="images/mandiri.png"
                   className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
                   alt="Stamp GIF"
-                  style={{ width: '160px', height: '120px', marginRIght: '20px' }}
+                  style={{ width: '160px', height: '120px', marginLeft: '30px' }}
                 />
                 <img
                   src="images/tokopedia.png"
                   className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
                   alt="Stamp GIF"
-                  style={{ width: '140px', height: '120px', marginRight: '20px' }}
+                  style={{ width: '140px', height: '120px', marginLeft: '20px' }}
                 />
                 <img
                   src="images/unnes.png"
                   className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
                   alt="Stamp GIF"
-                  style={{ width: '100px', height: '120px', marginLeft: '10px' }}
+                  style={{ width: '100px', height: '120px', marginLeft: '40px' }}
                 />
               </div>
             </div>
@@ -360,10 +360,6 @@ const LandingPage = () => {
                 Active Volunteers running our community.
               </pre>
             </div>
-            
-              
-            
-            
           </motion.div>
         </div>
         <div
@@ -377,24 +373,49 @@ const LandingPage = () => {
             initial="hidden"
             animate={control4}
           >
-            <div className="hero-content flex-col lg:flex-row">
-              <img
-                src="images/stampfix.gif"
-                className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
-                alt="Stamp GIF"
-              />
-              <div className="md:pl-12 animate-fade-right">
-                <h1 className="sm:max-w-sm sm:max-h-sm text-5xl font-bold">
-                  Bulk Stamp Feature!
-                </h1>
-                <p className="sm:max-w-sm sm:max-h-sm py-6 text-justify">
-                  Selain itu, kami memberikan kemampuan untuk melakukan stempel
-                  e-materai, baik untuk satu dokumen atau dalam jumlah besar
-                  (bulk document). Ini memungkinkan pengguna untuk memberikan
-                  cap digital e-materai pada dokumen secara mudah dan efisien,
-                  memberikan fleksibilitas dalam penanganan proses stempel pada
-                  satu dokumen atau sekaligus pada sejumlah besar dokumen.
-                </p>
+            
+            <div className="mt-40 sm:mt-16">
+              <h1 className="text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '10px', position: 'sticky'}}>
+                  Latest Update
+              </h1>
+              
+              <div className="hero-content flex-col lg:flex-row">
+                <div className="card card-compact w-80 bg-[#C8AE7D] shadow-xl">
+                  <figure className="px-10 pt-5"><img src="images/event1.png" alt="Shoes" /></figure>
+                  <div className="card-body">
+                  <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
+                  KOMPETISI </h2>
+                  <p style={{ fontFamily: 'Tinos'}}>
+                    Perlombaan yang diadakan oleh Perpustakaan Bank Indonesi Riau </p>
+                  <div className="card-actions justify-end">
+                  <button className="btn btn-primary">More</button>
+                  </div>
+                  </div>
+                </div>
+                <div className="card card-compact w-80 bg-[#C8AE7D] shadow-xl">
+                  <figure className="px-10 pt-5"><img src="images/event2.png" alt="Shoes" /></figure>
+                  <div className="card-body">
+                  <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
+                    EVENT</h2>
+                  <p style={{ fontFamily: 'Tinos'}}>Flores Writers Festival 2022 di Ende: Mari Bermain di Halaman</p>
+                  <div className="card-actions justify-end">
+                  <button className="btn btn-primary">More</button>
+                  </div>
+                  </div>
+                </div>
+                <div className="card card-compact w-80 bg-[#C8AE7D] shadow-xl">
+                  <figure className="px-10 pt-5"><img src="images/event3.png" alt="Shoes" /></figure>
+                  <div className="card-body">
+                  <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
+                    EVENT</h2>
+                  <p style={{ fontFamily: 'Tinos'}}>Memori dan Metafora di Flores Writers Festival 3 “Sadang Bui” di Maumere</p>
+                  <div className="card-actions justify-end">
+                  <button className="btn btn-primary">More</button>
+                  </div>
+                  </div>
+                </div>
+                
+                
               </div>
             </div>
           </motion.div>
