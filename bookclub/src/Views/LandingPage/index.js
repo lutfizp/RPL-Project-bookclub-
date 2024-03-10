@@ -129,7 +129,7 @@ const LandingPage = () => {
       </div>
       <div className="max-h-screen carousel carousel-vertical max-w-screen flex flex-col pt-16">
         <div
-          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#F8EFE8] from-80% to-[#F8F0E5] flex"
+          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-80% to-[#FFF3C7] flex"
           id="section-1"
           ref={ref1}
         >
@@ -172,23 +172,23 @@ const LandingPage = () => {
               />
             </div>
             <div style={{ 
-              width: '1000px', 
-              height: '160px', 
+              width: '840px', 
+              height: '150px', 
               backgroundColor: '#C8AE7D', 
-              marginTop: '400px', 
+              marginTop: '380px', 
               position: "sticky",
               borderRadius: '20px' }}>  
             </div>
-            <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '350px', position: 'relative'}}>
+            <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '340px', position: 'relative'}}>
                   What They Say About us?
             </h1>
-            <p style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '22px', marginTop: '450px', position: 'relative'}}
-            > Menjadi bagian dari kami adalah perubahan.
+            <p style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '22px', marginTop: '440px', position: 'relative'}}
+            > Scroll down below
             </p>
           </motion.div>
         </div>
         <div
-          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#F8F0E5] from-95% to-[#F8F0E5] flex"
+          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] flex"
           id="section-2"
           ref={ref2}
         >
@@ -230,15 +230,36 @@ const LandingPage = () => {
                 </div>
               </div>
               <img
-                src="images/gambar1.png"
-                className="max-w-full sm:max-w-sm sm:max-h-sm rounded-lg"
+                src="images/landingpage2.jpg"
+                className="rounded-lg"
                 alt="About GIF"
-                style={{ width: '350px', height: '440px', marginLeft: '20px' }}
+                style={{ width: '420px', height: '440px', marginLeft: '20px' }}
               />
             </div>
-            <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '20px', marginTop: '-350px', position: 'sticky', marginRight: '380px'}}>
+            <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '20px', marginTop: '-340px', position: 'sticky', marginRight: '450px'}}>
                   Arell Saverro
             </h1>
+            <p className="sm:max-w-sm sm:max-h-sm py-6 text-justify" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '18px', marginTop: '-220px', position: 'sticky', marginRight: '450px'}}>
+            “Saya adalah ayah dari 3 anak. Saya mengalami 
+            perubahan yang drastis tentang kehidupan setelah 
+            menjadi member.”
+            </p>
+            <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '20px', marginTop: '-30px', position: 'sticky', marginRight: '450px'}}>
+                  Fauzan Dwi
+            </h1>
+            <p className="sm:max-w-sm sm:max-h-sm py-6 text-justify" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '18px', marginTop: '80px', position: 'sticky', marginRight: '450px'}}>
+            “Saya mendapatkan banyak informasi mengenai 
+            lomba-lomba yang saya minati, dan saya 
+            menjadi produktif sekali!”
+            </p>
+            <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '20px', marginTop: '270px', position: 'sticky', marginRight: '450px'}}>
+                  Mahar Ben
+            </h1>
+            <p className="sm:max-w-sm sm:max-h-sm py-6 text-justify" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '18px', marginTop: '380px', position: 'sticky', marginRight: '450px'}}>
+            “Sejak dahulu tahun 80an, saya suka sekali 
+            membaca buku sejarah. Dan disinilah tempat 
+            saya menemukan jati diri.”
+            </p>
           </motion.div>
         </div>
         <div
