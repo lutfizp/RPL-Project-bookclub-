@@ -10,7 +10,7 @@ const boxVariant = {
 function JoinNowPage() {
 
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundColor: '#8B785E' }}>
        <div className="App overflow-hidden"></div>
       <div className="navbar flex fixed z-10 rounded-b-lg w-full" style={{ backgroundColor: '#C8AE7D' }}>
         <motion.div
@@ -69,8 +69,10 @@ function JoinNowPage() {
             </motion.a>
           </motion.div>
       </div>
-      
-      <div class="w-full bg-white py-20">
+      <div
+          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] flex"   
+      >
+      <div class="w-full bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] py-20">
   <div class="container">
     <div class="w-[70%] flex mx-auto mt-20">
       <div className="w-[70%] sm:w-[90%]">
@@ -146,11 +148,13 @@ function JoinNowPage() {
         </div>
       </div>
     </div>
-  </div>
+    </div>
+    </div>
+ 
 
 
 );
 
 }
 
-export default JoinNowPage;
+export default JoinNowPage
