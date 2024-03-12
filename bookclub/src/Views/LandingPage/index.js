@@ -115,14 +115,17 @@ const LandingPage = () => {
           </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
-            href="/JoinNow"
+            href="/"
             className="px-2 group hover:text-white"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
             transition={{ ease: "easeOut", duration: 0.3 }}
             style={{fontFamily: 'kaisei tokumin'}}
           >
-            Home
+            <img 
+            src="images/logo1.2.png" 
+            alt="Home" 
+            style={{width: "75px", height: "40px"}} />
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
           </motion.a>
         </motion.div>
