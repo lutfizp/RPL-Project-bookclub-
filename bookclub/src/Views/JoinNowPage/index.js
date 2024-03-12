@@ -64,7 +64,10 @@ function JoinNowPage() {
                 transition={{ ease: "easeOut", duration: 0.3 }}
                 style={{fontFamily: 'kaisei tokumin'}}
             >
-                Home
+                <img 
+                src="images/logo1.2.png" 
+                alt="Home" 
+                style={{width: "75px", height: "40px"}} />
                 <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
             </motion.a>
           </motion.div>
@@ -122,7 +125,7 @@ function JoinNowPage() {
         </div>
       </div>
     </div>
-      <div className="w-[50%] sm:w-[40%] text-right pr-10">
+      <div className="w-[50%] sm:w-[40%] text-right pr-10" style={{ marginTop: '-70px' }}>
   <div className="card shrink-0 w-96 h-auto max-w-md shadow-2x flex flex-col animate-fade-up" style={{ backgroundColor: '#C8AE7D', textAlign: 'justify', padding: '20px', borderRadius: '35px'}}>
     <p className="text-md font-bold mb-3 mt-3 justify" style={{ fontFamily: 'kaisei tokumin', color:"#484848", textAlign: 'justify', fontSize: '20px' }}>Connect with us through this way</p> 
     <p className="text-sm text-justify mb-1" style={{ fontFamily: 'kaisei tokumin', color:"#484848", textAlign: 'justify', fontSize: '15px', marginLeft: '6px', marginRight: '6px' }}>Please fill out the form below to start being a BookClub member.</p>
