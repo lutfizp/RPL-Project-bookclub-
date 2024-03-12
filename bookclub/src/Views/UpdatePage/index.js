@@ -77,7 +77,7 @@ function UpdatePage() {
       </div>
       <div class="w-full bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] py-20">
   <div class="container">
-    <div class="w-[70%] flex mx-auto mt-10">
+    <div class="w-[70%] flex mx-auto mt-12">
       <div className="w-[70%] sm:w-[90%]">
         <h1 className="mb-5 sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{fontFamily: 'kaisei tokumin', color:"#484848", fontSize: '30px'}}>
           Update
