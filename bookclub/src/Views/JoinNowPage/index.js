@@ -125,7 +125,7 @@ function JoinNowPage() {
         </div>
       </div>
     </div>
-      <div className="w-[50%] sm:w-[40%] text-right pr-10" style={{ marginTop: '-70px' }}>
+      <div className="w-[50%] sm:w-[40%] text-right pr-10">
   <div className="card shrink-0 w-96 h-auto max-w-md shadow-2x flex flex-col animate-fade-up" style={{ backgroundColor: '#C8AE7D', textAlign: 'justify', padding: '20px', borderRadius: '35px'}}>
     <p className="text-md font-bold mb-3 mt-3 justify" style={{ fontFamily: 'kaisei tokumin', color:"#484848", textAlign: 'justify', fontSize: '20px' }}>Connect with us through this way</p> 
     <p className="text-sm text-justify mb-1" style={{ fontFamily: 'kaisei tokumin', color:"#484848", textAlign: 'justify', fontSize: '15px', marginLeft: '6px', marginRight: '6px' }}>Please fill out the form below to start being a BookClub member.</p>
