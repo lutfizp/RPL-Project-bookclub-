@@ -150,7 +150,7 @@ const LandingPage = () => {
                 Mari kita lihat alasan mengapa kita perlu bergabung ke dalam klub baca buku.
               </p>
               <video width='520px' height='720px' controls autoPlay style={{marginLeft:'50px', marginTop:'10px'}}>
-                <source src="images/video1.mp4" type="video/mp4"></source>
+                <source src="images/video2.mp4" type="video/mp4"></source>
               </video>
       
             </div>
