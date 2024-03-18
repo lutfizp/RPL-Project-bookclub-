@@ -11,7 +11,7 @@ function VisiMisiPage() {
 
   return (
     <div className="App">
-      <div className="navbar flex bg-rose-500 fixed z-25 rounded-b-lg w-full">
+      <div className="navbar flex bg-rose-500 fixed z-25 rounded-b-lg w-full" style={{ backgroundColor: '#C8AE7D' }}>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, x: 20 }}
@@ -27,7 +27,11 @@ function VisiMisiPage() {
           >
             About
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
-            
+            <div class="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block">
+                <a href="/About/VisiMisi" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Visi Misi</a>
+                <a href="/About/LifeAtBookClub" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Life At Book Club</a>
+                <a href="/Vision" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Support Us</a>
+            </div>
           </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
@@ -39,6 +43,11 @@ function VisiMisiPage() {
           >
             Program
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
+            <div class="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block">
+                <a href="/Program/BookTalk" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">BookTalk, Discussion, Bootcamp</a>
+                <a href="/Program/Competition" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Competition</a>
+                <a href="/Program/" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Freebies</a>
+            </div>
           </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
@@ -70,7 +79,11 @@ function VisiMisiPage() {
                 whileTap={{ scale: 1.3 }}
                 transition={{ ease: "easeOut", duration: 0.3 }}
             >
-                Home
+                <img 
+                  src="images/logo1.2.png" 
+                  alt="Home" 
+                  style={{width: "75px", height: "40px"}} 
+                />
                 <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
             </motion.a>
         </motion.div>
