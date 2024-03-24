@@ -125,12 +125,12 @@ const LandingPage = () => {
             <img 
             src="images/logo1.2.png" 
             alt="Home" 
-            style={{width: "75px", height: "40px"}} />
+            style={{width: "6vw", height: "auto"}} />
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
           </motion.a>
         </motion.div>
       </div>
-      <div className="max-h-screen carousel carousel-vertical max-w-screen flex flex-col pt-16 h-auto">
+      <div className="max-h-screen carousel carousel-vertical max-w-screen flex flex-col pt-16">
         <div
           className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-80% to-[#FFF3C7] flex"
           id="section-1"
@@ -144,10 +144,10 @@ const LandingPage = () => {
           >
             <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '-100px' }}>
               <div className="md:pr-20 animate-fade-left" style={{ flex: 30 }}>
-                <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px'}}>
+                <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '3vw'}}>
                   Life at Serambi Buku
                 </h1>
-                <p className="sm:max-w-sm sm:max-h-sm py-3 text-justify animate-fade-up"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
+                <p className="sm:max-w-sm sm:max-h-sm py-3 text-justify animate-fade-up"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '1.5vw'}}>
                   Menjadi member di sebuah komunitas produktif salah satunya adalah member 
                   di klub buku merupakan pilihan terbaik bagi anda untuk menemukan 
                   jalan perubahan di masa yang akan mendatang. Mengapa?
@@ -155,7 +155,7 @@ const LandingPage = () => {
                 <a
                   href="/About"
                   className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
-                  style={{ marginRight: '190px', color:"#484848" }}
+                  style={{ marginRight: '15vw', color:"#484848" }}
                 >
                   See More
                 </a>
@@ -171,21 +171,21 @@ const LandingPage = () => {
                 src="images/life_at_SerambiBuku.png"
                 //className="max-w-full sm:max-w-sm sm:max-h-sm rounded-lg"
                 alt="About GIF"
-                style={{ width: '500px', height: '270px' }}
+                style={{ width: '37vw', height: 'auto' }}
               />
             </div>
             <div style={{ 
-              width: '840px', 
-              height: '150px', 
+              width: '75vw', 
+              height: '25vh', 
               backgroundColor: '#C8AE7D', 
               marginTop: '380px', 
               position: "sticky",
               borderRadius: '20px' }}>  
             </div>
-            <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '340px', position: 'relative'}}>
+            <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '2.5vw', marginTop: '340px', position: 'relative'}}>
                   What They Say About us?
             </h1>
-            <p style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '22px', marginTop: '440px', position: 'relative'}}
+            <p style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '1.9vw', marginTop: '440px', position: 'relative'}}
             > Scroll down below
             </p>
           </motion.div>
