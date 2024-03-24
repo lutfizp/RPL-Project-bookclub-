@@ -7,7 +7,7 @@ function CompetitionPage() {
 
     return (
         <div>
-            <div className="App" style={{ backgroundColor: '#FFF3C7', overflowX: 'hidden' }}>
+            <div className="App h-auto w-auto" style={{ backgroundColor: '#FFF3C7', overflowX: 'hidden' }}>
                 <div className="App overflow-hidden"></div>
                 <div className="navbar flex fixed z-10 rounded-b-lg w-full" style={{ backgroundColor: '#C8AE7D' }}>
                     <motion.div
@@ -77,7 +77,7 @@ function CompetitionPage() {
                     </motion.a>
                     </motion.div>
                 </div>
-                    <div className="w-full bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] py-20">
+                    <div className="h-full w-full bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] py-20">
                         <div className="container">
                             <div className="w-[70%] flex mx-auto mt-12 flex-wrap">
                                 <div className="w-[70%] sm:w-[50%]">
@@ -85,26 +85,21 @@ function CompetitionPage() {
                                         Competition
                                     </h1>
                                     <div className="w-[30%] sm:w-[50%] ml-5 mt-7">
-                                    <div className="flex mt-7 w-full justify-between">
+                                    <div className="flex mt-7 h-full w-full justify-between">
                                     <div className="w-[30%] sm:w-[30%] mr-80">
                                         <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '245px', height: '355px', borderRadius: '29px', marginLeft: '-25px' }}>
                                         <figure className="px-4 pt-5">
-                                        <img src="/images/update1.jpg" 
+                                        <img src="/images/update6.jpg" 
                                         alt="Shoes" 
                                         style={{ width: '245px', height: '194px', borderRadius: '24px' }}
                                         />
                                         </figure>
                                         <div className="card-body text-justify" style={{ marginTop: '-26px', position: 'relative' }}> </div>
-                                        <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginLeft: '15px', marginTop: '-30px'}}>
-                                        Event</p>
-                                        <h1 className="card-title pt-2" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '16px', marginTop: '-12px', wordSpacing: '1px', marginLeft: '15px' }}>
-                                            Memori dan Metafora di Flores Writers Festival 3
+                                        <h1 className="card-title pt-2" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '16px', marginTop: '-30px', wordSpacing: '1px', marginLeft: '15px' }}>
+                                            Open Library Book Review Competition 2024
                                         </h1>
                                         <div className="card-body text-justify" style={{ marginTop: '-26px', position: 'relative' }}>
-                                        <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginTop: '5px', marginLeft: '-16px'}}>
-                                            Read On
-                                        </p>
-                                        <p style={{ fontFamily: 'kaisei tokumin', color:"#484848", fontSize: '14px', marginTop: '37px',position: 'absolute', marginTop: '34px', transform: 'translateY(-50%)', marginLeft: '-16px'}}>
+                                        <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginTop: '25px', marginLeft: '-16px'}}>
                                             February 3, 2024
                                         </p>
                                         </div>
@@ -113,26 +108,20 @@ function CompetitionPage() {
                                     <div className="w-[30%] sm:w-[30%] ml-5">
                                         <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '245px', height: '355px', borderRadius: '29px', marginLeft: '-50px' }}>
                                         <figure className="px-4 pt-5">
-                                            <img src="/images/update2.jpg" 
+                                            <img src="/images/update3.jpg" 
                                             alt="Shoes" 
                                             style={{ width: '245px', height: '194px', borderRadius: '24px' }}
                                             />
                                         </figure>
                                         <div className="card-body text-justify" style={{ marginTop: '-26px', position: 'relative' }}> </div>
-                                            <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginLeft: '15px', marginTop: '-30px'}}>
-                                            Event
-                                            </p>
-                                             <h1 className="card-title pt-2" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '16px', marginTop: '-12px', wordSpacing: '1px', marginLeft: '15px' }}>
-                                                Flores Writers Festival 2022 di Ende
+                                             <h1 className="card-title pt-2" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '16px', marginTop: '-30px', wordSpacing: '1px', marginLeft: '15px' }}>
+                                                Lomba Resensi Buku & Speech Contest
                                             </h1>
                                         <div className="card-body text-justify" style={{ marginTop: '-26px', position: 'relative' }}>
-                                            <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginTop: '5px', marginLeft: '-16px'}}>
-                                                Read On
-                                            </p>
-                                            <p style={{ fontFamily: 'kaisei tokumin', color:"#484848", fontSize: '14px', marginTop: '37px',position: 'absolute', marginTop: '34px', transform: 'translateY(-50%)', marginLeft: '-16px'}}>
+                                            <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginTop: '25px', marginLeft: '-16px'}}>
                                                 February 3, 2024
                                             </p>
-                                        <div className="mt-40 sm:mt-16">
+                                        <div className="h-auto w-auto mt-40 sm:mt-16">
                                         <div style={{ 
                                             width: '1000px', 
                                             height: '240px', 
