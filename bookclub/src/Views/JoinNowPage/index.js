@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react"; // Perbaikan di sini, hilangkan impor React yang terpisah
+import axios from "axios";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -8,6 +9,29 @@ const boxVariant = {
 };
 
 function JoinNowPage() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    nomor_hp: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post("http://localhost:3500/getUser", formData);
+      console.log("Response:", response.data);
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  };
 
   return (
     <div className="App" style={{ backgroundColor: '#8B785E' }}>
@@ -137,7 +161,7 @@ function JoinNowPage() {
         <input type="email" placeholder="Email" className="input input-bordered" required style={{ backgroundColor: '#F8F0E5',fontFamily: 'kaisei tokumin', color:"#C8AE7D", textAlign: 'justify', fontSize: '15px',  borderRadius: '35px'}}/>
       </div>
       <div className="form-control">
-        <input type="number" placeholder="WhatsApp Number" className="input input-bordered" required style={{ backgroundColor: '#F8F0E5', fontFamily: 'kaisei tokumin', color:"#C8AE7D", textAlign: 'justify', fontSize: '15px', borderRadius: '35px'}}/>
+        <input type="telepon" placeholder="WhatsApp Number" className="input input-bordered" required style={{ backgroundColor: '#F8F0E5', fontFamily: 'kaisei tokumin', color:"#C8AE7D", textAlign: 'justify', fontSize: '15px', borderRadius: '35px'}}/>
       </div>
       <div className="form-control mt-6">
         <button className="btn btn-primary" style={{  fontFamily: 'kaisei tokumin', backgroundColor: '#8B785E', border: 'none', borderRadius: '35px', color:"#F8F0E5"}}>SUBMIT</button>
@@ -145,13 +169,10 @@ function JoinNowPage() {
     </form>
   </div>
 </div>
-
-
-
-        </div>
-      </div>
-    </div>
-    </div>
+</div>
+  </div>
+  </div>
+  </div>
     </div>
  
 

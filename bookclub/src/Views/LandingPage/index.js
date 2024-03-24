@@ -125,7 +125,7 @@ const LandingPage = () => {
             <img 
             src="images/logo1.2.png" 
             alt="Home" 
-            style={{width: "75px", height: "40px"}} />
+            style={{width: "80px", height: "auto"}} />
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
           </motion.a>
         </motion.div>
@@ -171,21 +171,21 @@ const LandingPage = () => {
                 src="images/life_at_SerambiBuku.png"
                 //className="max-w-full sm:max-w-sm sm:max-h-sm rounded-lg"
                 alt="About GIF"
-                style={{ width: '500px', height: '270px' }}
+                style={{ width: '500px', height: 'auto' }}
               />
             </div>
             <div style={{ 
-              width: '840px', 
+              width: '1000px', 
               height: '150px', 
               backgroundColor: '#C8AE7D', 
               marginTop: '380px', 
               position: "sticky",
               borderRadius: '20px' }}>  
             </div>
-            <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '340px', position: 'relative'}}>
+            <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '33px', marginTop: '340px', position: 'relative'}}>
                   What They Say About us?
             </h1>
-            <p style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '22px', marginTop: '440px', position: 'relative'}}
+            <p style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '23px', marginTop: '440px', position: 'relative'}}
             > Scroll down below
             </p>
           </motion.div>
@@ -477,7 +477,7 @@ const LandingPage = () => {
                 Get new content delivered directly to your inbox.
             </pre>
             
-            <footer className="footer p-10 bg-base-200 text-base-content" style= {{marginBottom:'-335px'}}>
+            <footer className="footer p-10 bg-[#222831] text-base-content" style= {{marginBottom:'-335px'}}>
                 <aside>
                   <img src="images/logo1.png" style={{ width: '120px', height: '120px', marginTop:'-30px'}}></img>
                 <p>Serambi Buku<br/>Founded since 2015</p>
