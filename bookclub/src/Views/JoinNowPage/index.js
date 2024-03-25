@@ -15,21 +15,29 @@ function JoinNowPage() {
     nomor_hp: "",
   });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
+  const handleChange = (e, field) => {
+    const { value } = e.target;
+    const updatedFormData = {
+      ...formData,
+      [field]: value,
+    };
+    setFormData(updatedFormData);
+  
+    console.log(updatedFormData); // Log updated form data
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:3500/getUser", formData);
-      console.log("Response:", response.data);
+      const dataToSend = {
+        name: formData.name,
+        email: formData.email,
+        nomor_hp: formData.nomor_hp,
+      };
+
+      await axios.post("http://localhost:5000/CreateUser", dataToSend);
+
     } catch (error) {
-      console.error("Error:", error);
+      console.log(error);
     }
   };
 
@@ -153,18 +161,46 @@ function JoinNowPage() {
   <div className="card shrink-0 w-96 h-auto max-w-md shadow-2x flex flex-col animate-fade-up" style={{ backgroundColor: '#C8AE7D', textAlign: 'justify', padding: '20px', borderRadius: '35px'}}>
     <p className="text-md font-bold mb-3 mt-3 justify" style={{ fontFamily: 'kaisei tokumin', color:"#484848", textAlign: 'justify', fontSize: '20px' }}>Connect with us through this way</p> 
     <p className="text-sm text-justify mb-1" style={{ fontFamily: 'kaisei tokumin', color:"#484848", textAlign: 'justify', fontSize: '15px', marginLeft: '6px', marginRight: '6px' }}>Please fill out the form below to start being a BookClub member.</p>
-    <form className="card-body ">
+    <form onSubmit={handleSubmit} className="card-body ">
       <div className="form-control">
-        <input type="text" placeholder="Full Name" className="input input-bordered" required style={{ backgroundColor: '#F8F0E5',fontFamily: 'kaisei tokumin', color:"#C8AE7D", textAlign: 'justify', fontSize: '15px',  borderRadius: '35px'}} />
+        <input 
+        type="text" 
+        id = "name"
+        value = {formData.name}
+        onChange={(e) => handleChange(e, "name")}
+        placeholder="Full Name" 
+        className="input input-bordered" 
+        required style={{ backgroundColor: '#F8F0E5',fontFamily: 'kaisei tokumin', color:"#C8AE7D", textAlign: 'justify', fontSize: '15px',  borderRadius: '35px'}} />
       </div>
+
       <div className="form-control w-full" style={{ backgroundColor: '#C8AE7D' }}>
-        <input type="email" placeholder="Email" className="input input-bordered" required style={{ backgroundColor: '#F8F0E5',fontFamily: 'kaisei tokumin', color:"#C8AE7D", textAlign: 'justify', fontSize: '15px',  borderRadius: '35px'}}/>
+        <input 
+        type="email" 
+        id = "email"
+        value = {formData.email}
+        onChange={(e) => handleChange(e, "email")}
+        placeholder="Email" 
+        className="input input-bordered" 
+        required style={{ backgroundColor: '#F8F0E5',fontFamily: 'kaisei tokumin', color:"#C8AE7D", textAlign: 'justify', fontSize: '15px',  borderRadius: '35px'}}/>
       </div>
+
       <div className="form-control">
-        <input type="telepon" placeholder="WhatsApp Number" className="input input-bordered" required style={{ backgroundColor: '#F8F0E5', fontFamily: 'kaisei tokumin', color:"#C8AE7D", textAlign: 'justify', fontSize: '15px', borderRadius: '35px'}}/>
+        <input 
+        type="tel" 
+        id = "nomor_hp"
+        value = {formData.nomor_hp}
+        onChange={(e) => handleChange(e, "nomor_hp")}
+        placeholder="WhatsApp Number" 
+        className="input input-bordered" 
+        required style={{ backgroundColor: '#F8F0E5', fontFamily: 'kaisei tokumin', color:"#C8AE7D", textAlign: 'justify', fontSize: '15px', borderRadius: '35px'}}/>
       </div>
+
       <div className="form-control mt-6">
-        <button className="btn btn-primary" style={{  fontFamily: 'kaisei tokumin', backgroundColor: '#8B785E', border: 'none', borderRadius: '35px', color:"#F8F0E5"}}>SUBMIT</button>
+        <button className="btn btn-primary" 
+        type="submit"
+        style={{  fontFamily: 'kaisei tokumin', backgroundColor: '#8B785E', border: 'none', borderRadius: '35px', color:"#F8F0E5"}}>
+          SUBMIT
+        </button>
       </div>
     </form>
   </div>
