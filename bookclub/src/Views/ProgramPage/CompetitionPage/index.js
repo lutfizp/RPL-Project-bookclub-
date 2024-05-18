@@ -70,7 +70,7 @@ function CompetitionPage() {
                             style={{fontFamily: 'kaisei tokumin'}}
                         >
                         <img 
-                            src="images/logo1.2.png" 
+                            src="/../images/logo1.2.png" 
                             alt="Home" 
                             style={{width: "75px", height: "40px"}} />
                             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
