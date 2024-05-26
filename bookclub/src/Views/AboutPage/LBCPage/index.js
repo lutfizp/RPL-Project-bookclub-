@@ -123,7 +123,7 @@ const LandingPage = () => {
             style={{fontFamily: 'kaisei tokumin'}}
           >
             <img 
-            src="images/logo1.2.png" 
+            src="/../images/logo1.2.png" 
             alt="Home" 
             style={{width: "75px", height: "40px"}} />
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
@@ -150,7 +150,7 @@ const LandingPage = () => {
                 Mari kita lihat alasan mengapa kita perlu bergabung ke dalam klub baca buku.
               </p>
               <video width='520px' height='720px' controls autoPlay style={{marginLeft:'50px', marginTop:'10px'}}>
-                <source src="images/video2.mp4" type="video/mp4"></source>
+                <source src="/../images/video2.mp4" type="video/mp4"></source>
               </video>
       
             </div>
@@ -200,7 +200,7 @@ const LandingPage = () => {
             
             <div className="hero-content flex-col lg:flex-row">
               <img
-              src="images/lutpi.jpg"
+              src="/../images/lutpi.jpg"
               className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
               alt="Stamp GIF"
               style={{ width: '150px', height: '150px', marginLeft: '-5px', marginTop: '-230px' }}
@@ -214,25 +214,25 @@ const LandingPage = () => {
             </pre>
             <div className="hero-content flex-col lg:flex-row">
               <img
-              src="images/alfiah.jpg"
+              src="/../images/alfiah.jpg"
               className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
               alt="Stamp GIF"
               style={{ width: '150px', height: '150px', marginLeft: '0px', marginTop: '230px' }}
               />
               <img
-              src="images/hamzah.jpg"
+              src="/../images/hamzah.jpg"
               className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
               alt="Stamp GIF"
               style={{ width: '150px', height: '150px', marginLeft: '100px', marginTop: '230px' }}
               />
               <img
-              src="images/fadhel1.jpeg"
+              src="/../images/fadhel1.jpeg"
               className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
               alt="Stamp GIF"
               style={{ width: '150px', height: '150px', marginLeft: '100px', marginTop: '230px' }}
               />
               <img
-              src="images/fanina.jpg"
+              src="/../images/fanina.jpg"
               className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
               alt="Stamp GIF"
               style={{ width: '150px', height: '150px', marginLeft: '100px', marginTop: '230px' }}
@@ -307,7 +307,7 @@ const LandingPage = () => {
             
             <footer className="footer p-10 bg-base-200 text-base-content" style= {{marginBottom:'-335px'}}>
                 <aside>
-                  <img src="images/logo1.png" style={{ width: '120px', height: '120px', marginTop:'-30px'}}></img>
+                  <img src="/../images/logo1.png" style={{ width: '120px', height: '120px', marginTop:'-30px'}}></img>
                 <p>Serambi Buku<br/>Founded since 2015</p>
                 </aside> 
                 <nav>

@@ -123,7 +123,7 @@ const LandingPage = () => {
             style={{fontFamily: 'kaisei tokumin'}}
           >
             <img 
-            src="images/logo1.2.png" 
+            src="/../images/logo1.2.png" 
             alt="Home" 
             style={{width: "80px", height: "auto"}} />
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
@@ -156,15 +156,15 @@ const LandingPage = () => {
                   marginTop: '50px', 
                   position: "sticky" }}>  
                 </div>
-            <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '-100px' }}>
+            <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '50px' }}>
               <img
-                src="images/life_at_SerambiBuku.png"
+                src="/../images/life_at_SerambiBuku.png"
                 //className="max-w-full sm:max-w-sm sm:max-h-sm rounded-lg"
                 alt="About GIF"
                 style={{ width: '500px', height: 'auto' }}
               />
               
-              <div className="md:pr-30 animate-fade-left" style={{ flex: 30, marginTop: '150px' }}>
+              <div className="md:pr-30 animate-fade-left" style={{ flex: 30 }}>
                 <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px'}}>
                   OUR VISION
                 </h1>
@@ -206,6 +206,14 @@ const LandingPage = () => {
                   position: "sticky" }}> 
                 </div>
               </div>
+            </div>
+            <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '50px', marginRight: '650px' }}>
+              <img
+                src="/../images/life_at_SerambiBuku.png"
+                //className="max-w-full sm:max-w-sm sm:max-h-sm rounded-lg"
+                alt="About GIF"
+                style={{ width: '500px', height: 'auto' }}
+              />
             </div>
             <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"White", fontSize: '20px', marginTop: '-270px', position: 'sticky', marginRight: '-500px'}}>
               OUR MISSION
@@ -260,7 +268,7 @@ const LandingPage = () => {
             
             <footer className="footer p-10 bg-[#222831] text-base-content" style= {{marginBottom:'-335px'}}>
                 <aside>
-                  <img src="images/logo1.png" style={{ width: '120px', height: '120px', marginTop:'-30px'}}></img>
+                  <img src="/../images/logo1.png" style={{ width: '120px', height: '120px', marginTop:'-30px'}}></img>
                 <p>Serambi Buku<br/>Founded since 2015</p>
                 </aside> 
                 <nav>
