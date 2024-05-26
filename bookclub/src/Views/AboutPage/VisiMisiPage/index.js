@@ -158,7 +158,7 @@ const LandingPage = () => {
                 </div>
             <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '50px' }}>
               <img
-                src="/../images/life_at_SerambiBuku.png"
+                src="/../images/visimisi1.jpg"
                 //className="max-w-full sm:max-w-sm sm:max-h-sm rounded-lg"
                 alt="About GIF"
                 style={{ width: '500px', height: 'auto' }}
@@ -209,7 +209,7 @@ const LandingPage = () => {
             </div>
             <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '50px', marginRight: '650px' }}>
               <img
-                src="/../images/life_at_SerambiBuku.png"
+                src="/../images/visimisi2.jpg"
                 //className="max-w-full sm:max-w-sm sm:max-h-sm rounded-lg"
                 alt="About GIF"
                 style={{ width: '500px', height: 'auto' }}
