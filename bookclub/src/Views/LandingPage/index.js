@@ -58,7 +58,6 @@ const LandingPage = () => {
             className="container flex justify-center"
         >
             <motion.a
-            href="/About"
             className="relative px-2 group hover:text-white"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
@@ -75,7 +74,6 @@ const LandingPage = () => {
             </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
-            href="/Program"
             className="px-2 group hover:text-white"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
@@ -169,7 +167,6 @@ const LandingPage = () => {
               </div>
               <img
                 src="images/life_at_SerambiBuku.png"
-                //className="max-w-full sm:max-w-sm sm:max-h-sm rounded-lg"
                 alt="About GIF"
                 style={{ width: '500px', height: 'auto' }}
               />
@@ -276,7 +273,6 @@ const LandingPage = () => {
             initial="hidden"
             animate={control3}
           >
-            
             <div className="mt-40 sm:mt-16">
               <div style={{ 
                 width: '1000px', 
@@ -459,7 +455,7 @@ const LandingPage = () => {
                 backgroundColor: '#C8AE7D', 
                 marginTop: '-220px', 
                 position: "sticky",
-                borderRadius: '20px' }}>  
+                borderRadius: '20px' }}>
                 <a
                   href="/JoinNow"
                   className="btn transition ease-in-out delay-50 bg-[#FFF3C7] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
@@ -468,7 +464,6 @@ const LandingPage = () => {
                     Subscribe to Our Channel
                   </a>
               </div>
-              
             </div>
             <pre className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Kaisei Tokumin', color:"#484848", fontSize: '40px', marginTop: '-300px', position: 'sticky', marginRight: '450px'}}>
                 Subscribe To Our Update!
@@ -509,5 +504,4 @@ const LandingPage = () => {
     </div>
   );
 };
-
 export default LandingPage;

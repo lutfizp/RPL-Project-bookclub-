@@ -54,7 +54,7 @@ const FreebiesPage = () => {
   return (
     
     <div className="FreebiesPage" style={{ overflowX: 'hidden' }}>
-      <div className="navbar flex fixed z-10 rounded-b-lg w-full" style={{ backgroundColor: '#C8AE7D', overflowX: 'hidden'}}>
+      <div className="navbar flex fixed z-10 rounded-b-lg w-full" style={{ backgroundColor: '#C8AE7D', overflowX: 'visible', position: 'relative'}}>
             <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, x: 20 }}
@@ -79,20 +79,20 @@ const FreebiesPage = () => {
             </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
-            href="/Program"
             className="px-2 group hover:text-white"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
             transition={{ ease: "easeOut", duration: 0.3 }}
-            style={{fontFamily: 'kaisei tokumin'}}
+            style={{ fontFamily: 'kaisei tokumin', position: 'relative' }} // Tambahkan position: relative
           >
             Program
-            <div class="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block">
-                <a href="/Program/BookTalk" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">BookTalk, Discussion, Bootcamp</a>
-                <a href="/Program/Competition" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Competition</a>
-                <a href="/Program/" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Freebies</a>
+            <div className="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block" style={{ zIndex: 20 }}> 
+              <a href="/Program/BookTalk" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">BookTalk, Discussion, Bootcamp</a>
+              <a href="/Program/Competition" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Competition</a>
+              <a href="/Program/" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Freebies</a>
             </div>
           </motion.a>
+
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
             href="/Update"
