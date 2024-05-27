@@ -49,7 +49,7 @@ const LandingPage = () => {
     }
   }, [control5, inView5]);
   return (
-    <div className="HomePage">
+    <div className="AboutPage">
       <div className="navbar flex fixed z-10 rounded-b-lg w-full" style={{ backgroundColor: '#C8AE7D' }}>
             <motion.div
             initial={{ opacity: 0 }}
@@ -70,7 +70,7 @@ const LandingPage = () => {
             <div class="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block">
                 <a href="/About/VisiMisi" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Visi Misi</a>
                 <a href="/About/LifeAtBookClub" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Life At Book Club</a>
-                <a href="/About/SupportUs" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Support Us</a>
+                <a href="/Vision" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Support Us</a>
             </div>
             </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
@@ -86,7 +86,7 @@ const LandingPage = () => {
             <div class="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block">
                 <a href="/Program/BookTalk" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">BookTalk, Discussion, Bootcamp</a>
                 <a href="/Program/Competition" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Competition</a>
-                <a href="/Program/Freebies" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Freebies</a>
+                <a href="/Program/" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Freebies</a>
             </div>
           </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
@@ -125,7 +125,7 @@ const LandingPage = () => {
             <img 
             src="/../images/logo1.2.png" 
             alt="Home" 
-            style={{width: "80px", height: "auto"}} />
+            style={{width: "75px", height: "40px"}} />
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
           </motion.a>
         </motion.div>
@@ -142,71 +142,124 @@ const LandingPage = () => {
             initial="hidden"
             animate={control1}
           >
-            <div className="mt-40 sm:mt-16">
-              <h1 className="text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '10px', position: 'sticky'}}>
-                  Book Talk
-              </h1>
-              
-              <div className="hero-content flex-col lg:flex-row">
-                <div className="card card-compact w-80 bg-white shadow-xl">
-                  <figure className="px-10 pt-5"><img src="/../images/Booktalk1.png" alt="Shoes" /></figure>
-                  <div className="card-body">
-                  <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
-                  KOMPETISI </h2>
-                  <p style={{ fontFamily: 'Tinos'}}>
-                    Perlombaan yang diadakan oleh Perpustakaan Bank Indonesi Riau </p>
-                  <div className="card-actions justify-end">
-                  <a
-                  href="/About/LifeAtBookClub"
-                  className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
-                  style={{ color:"#484848" }}
-                  >
-                    See More
-                  </a>
-                  </div>
-                  </div>
-                </div>
-                
-                <div className="card card-compact w-80 bg-white shadow-xl">
-                  <figure className="px-10 pt-5"><img src="/../images/Booktalk2.png" alt="Shoes" /></figure>
-                  <div className="card-body">
-                  <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
-                    EVENT</h2>
-                  <p style={{ fontFamily: 'Tinos'}}>Flores Writers Festival 2022 di Ende: Mari Bermain di Halaman</p>
-                  <div className="card-actions justify-end">
-                  <a
-                  href="/About/LifeAtBookClub"
-                  className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
-                  style={{ color:"#484848" }}
-                  >
-                    See More
-                  </a>
-                  </div>
-                  </div>
-                </div>
-                
-                <div className="card card-compact w-80 bg-white shadow-xl">
-                  <figure className="px-10 pt-5"><img src="/../images/Booktalk3.png" alt="Shoes" /></figure>
-                  <div className="card-body">
-                  <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
-                    EVENT</h2>
-                  <p style={{ fontFamily: 'Tinos'}}>Memori dan Metafora di Flores Writers Festival 3 “Sadang Bui” di Maumere</p>
-                  <div className="card-actions justify-end">
-                  <a
-                  href="/About/LifeAtBookClub"
-                  className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
-                  style={{ color:"#484848" }}
-                  >
-                    See More
-                  </a>
-                  </div>
-                  </div>
-                </div>
-              </div>
+            <div
+          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] flex"
+          id="section-3"
+          ref={ref3}
+        >
+          <motion.div
+            className="hero min-h-screen"
+            variants={boxVariant}
+            initial="hidden"
+            animate={control3}
+          >
+            <div style={{ 
+              width: '500px', 
+              height: '6px', 
+              backgroundColor: '#C8AE7D', 
+              marginTop: '260px',
+              marginLeft:'560px', 
+              position: "sticky",
+              borderRadius: '20px' }}>  
+            </div>
+            <div style={{ 
+              width: '500px', 
+              height: '6px', 
+              backgroundColor: '#C8AE7D', 
+              marginTop: '-20px',
+              marginLeft:'560px', 
+              position: "sticky",
+              borderRadius: '20px' }}>  
+            </div>
+
+            <div className="hero-content flex-col lg:flex-row">
+            <p className="py-3 text-center animate-fade-up font-bold"style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '25px', marginTop: '60px', marginRight: '50px', width:'500px'}}>
+            Frequently Asked Questions:
+            </p>
+            <div className="mt-40 sm:mt-16" >
+            <p className="py-3 text-align-left animate-fade-up"style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '23px', marginTop: '10px', width:'500px'}}>
+            <span class="font-bold">1. Apakah komunitas ini Berbayar?</span> Tidak sama sekali, komunitas ini
+            gratis sepenuhnya. Namun teman-teman bisa menyumbangkan finansial untuk mengembangkan komunitas kami.
+            <p className="py-3 text-align-left animate-fade-up"style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '23px', marginTop: '20px', width:'500px'}}>
+            <span class="font-bold">2. Benefit apa yang ditawarkan?</span> Bertemu rekan-rekan dengan hobi yang sama
+            serta memberikan pengalaman yang lebih produktif.
+            </p>
+            <p className="py-3 text-align-left animate-fade-up"style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '23px', marginTop: '20px', width:'500px'}}>
+            <span class="font-bold">3. Adakah batasan umur untuk bisa bergabung dengan komunitas ini?</span> Tidak ada.
+            </p>
+            </p>
+            </div>
             </div>
           </motion.div>
         </div>
-       
+          </motion.div>
+        </div>
+        
+        
+
+        <div
+          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] flex"
+          id="section-3"
+          ref={ref3}
+        >
+          <motion.div
+            className="hero min-h-screen"
+            variants={boxVariant}
+            initial="hidden"
+            animate={control3}
+          >
+            <div style={{ 
+              width: '6px', 
+              height: '400px', 
+              backgroundColor: '#C8AE7D', 
+              marginTop: '50px',
+              marginLeft:'60px', 
+              position: "sticky",
+              borderRadius: '20px' }}>  
+            </div>
+            <div style={{ 
+              width: '300px', 
+              height: '70px', 
+              backgroundColor: '#C8AE7D', 
+              marginTop: '-110px',
+              marginRight:'-570px', 
+              position: "sticky"}}>  
+            </div>
+            <div style={{ 
+              width: '300px', 
+              height: '70px', 
+              backgroundColor: '#C8AE7D', 
+              marginTop: '115px',
+              marginRight:'-770px', 
+              position: "sticky"}}>  
+            </div>
+        
+            <div className="hero-content flex-col lg:flex-row">
+            <div className="mt-40 sm:mt-16" >
+            <p className="py-3 text-align-left animate-fade-up"style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '23px', marginTop: '10px', width:'500px', marginLeft: '100px'}}>
+            <span class="font-bold">1. We are officially registered as non-profit community</span>, 
+            but currently we don't have proper system to accept personal donation. If you are interested
+            to become a donor, please let us know through mail <span class="font-bold">KubuKita@gmail.com</span>
+            </p>
+            <p className="py-3 text-align-left animate-fade-up"style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '23px', marginTop: '20px', width:'500px', marginLeft: '100px'}}>
+            We accept sponsored social media content, event, discussion as long as it alligns with our
+            mission and values. Please send us email through <span class="font-bold">KubuPartner@gmail.com</span>
+            </p>
+            </div>
+            <div className="mt-40 sm:mt-16" >
+            <p className="py-3 text-center animate-fade-up font-bold"style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '70px', marginTop: '-70px', marginLeft: '50px', width:'500px'}}>
+            Financial
+            </p>
+            <p className="py-3 text-center animate-fade-up font-bold"style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '70px', marginTop: '-20px', marginLeft: '150px', width:'500px'}}>
+            Support
+            </p>
+            </div>
+            
+            </div>
+          </motion.div>
+        </div>
+        
+        
         <div
           className="carousel-item h-screen w-screen bg-[#FFF3C7] flex"
           id="section-5"
@@ -243,7 +296,7 @@ const LandingPage = () => {
                 Get new content delivered directly to your inbox.
             </pre>
             
-            <footer className="footer p-10 bg-[#222831] text-base-content" style= {{marginBottom:'-335px'}}>
+            <footer className="footer p-10 bg-base-200 text-base-content" style= {{marginBottom:'-335px'}}>
                 <aside>
                   <img src="/../images/logo1.png" style={{ width: '120px', height: '120px', marginTop:'-30px'}}></img>
                 <p>Serambi Buku<br/>Founded since 2015</p>

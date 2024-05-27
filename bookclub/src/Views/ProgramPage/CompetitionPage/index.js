@@ -62,7 +62,7 @@ function CompetitionPage() {
                     </motion.a>
                     <div className="divider divider-horizontal bg-white w-auto"></div>
                     <motion.a
-                            href="/"
+                            href="https://wa.me/081285183841"
                             className="px-2 group hover:text-white"
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 1.3 }}
