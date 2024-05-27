@@ -17,7 +17,6 @@ function CompetitionPage() {
                         className="container flex justify-center"
                     >
                           <motion.a
-                    href="/About"
                         className="px-2 group hover:text-yellow-950"
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 1.3 }}
@@ -34,7 +33,6 @@ function CompetitionPage() {
                         </motion.a>
                     <div className="divider divider-horizontal bg-white w-auto"></div>
                     <motion.a
-                        href="/Program"
                         className="px-2 group text-yellow-950"
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 1.3 }}
