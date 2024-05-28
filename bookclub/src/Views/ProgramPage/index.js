@@ -62,7 +62,6 @@ const FreebiesPage = () => {
             className="container flex justify-center"
         >
             <motion.a
-            href="/About"
             className="relative px-2 group hover:text-white"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
@@ -199,7 +198,6 @@ const FreebiesPage = () => {
                   </div>
                 </div>
             </div>
-               
           </motion.div>
         </div>
 

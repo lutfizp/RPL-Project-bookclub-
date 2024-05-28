@@ -14,6 +14,7 @@ import UpdatePage from "./Views/UpdatePage";
 import JoinNowPage from "./Views/JoinNowPage";
 import FaQPage from "./Views/FaQPage";
 import ContactUsPage from "./Views/ContactUsPage";
+import CompetitionNewsPage from "./Views/ProgramPage/BookTalkPage/CompetitionNewsPage";
 
 class App extends Component {
   render() {
@@ -34,6 +35,8 @@ class App extends Component {
             <Route exact path="/JoinNow" element={<JoinNowPage />} />
             <Route exact path="FaQ" element={<FaQPage />} />
             <Route exact path="/ContactUs" element={<ContactUsPage />} />
+            <Route exact path="/Program/Booktalk/CompetitionNews" element={<CompetitionNewsPage />} />
+
           </Routes>
         </div>
       </Router>
