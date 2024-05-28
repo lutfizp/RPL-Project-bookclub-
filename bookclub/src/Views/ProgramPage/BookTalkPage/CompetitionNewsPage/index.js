@@ -140,14 +140,184 @@ const LandingPage = () => {
             initial="hidden"
             animate={control1}
           >
+            <div className="hero-content flex-col lg:flex-row" style={{ }}>
+              <div className="md:pr-20 animate-fade-left" style={{ flex: 30 }}>
+                <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginRight:'-50px'}}>
+                  Update
+                </h1>
+                <img
+                src="/../images/Booktalk2.png"
+                alt="About GIF"
+                style={{ width: '500px', height: 'auto', marginTop: '30px' }}
+              />
+              </div>
+              <div className="md:pr- animate-fade-left" style={{ marginTop: '70px' }}>
+              <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginRight:'-50px'}}>
+                  #BINCANG BUKA
+                </h1>
+              <p className="sm:max-w-sm sm:max-h-sm py-3 text-justify animate-fade-up"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
+              Pengenalan terhadap diri sendiri (know yourself) adalah salah satu kunci penting untuk proses pencapaian kita menuju kesuksesan. 
+              Banyak orang yang tidak mendapatkan progress dalam perjalanan kesuksesannya semata – mata karena kurangnya pengenalan terhadap diri 
+              sendiri. ,Di era yang serba cepat ini, pengenalan diri bukan cuma jadi kunci kesuksesan dan kebahagiaan, tapi juga pintu menuju pertumbuhan 
+              pribadi yang luar biasa.
+              </p>
+              </div>  
+            </div>
+          </motion.div>
+        </div>
+        <div
+          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] flex"
+          id="section-2"
+          ref={ref2}
+        >
+    
+          <motion.div
+            className="hero min-h-screen"
+            variants={boxVariant}
+            initial="hidden"
+            animate={control2}
+          > 
+          <div className="md:pr-20 md:pl-20 animate-fade-left" style={{ }}>
+          <p className="sm:max-h-sm px-10 text-justify"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
+              Pengenalan terhadap diri sendiri (know yourself) adalah salah satu kunci penting untuk proses pencapaian kita menuju kesuksesan. 
+              Banyak orang yang tidak mendapatkan progress dalam perjalanan kesuksesannya semata – mata karena kurangnya pengenalan terhadap diri 
+              sendiri. ,Di era yang serba cepat ini, pengenalan diri bukan cuma jadi kunci kesuksesan dan kebahagiaan, tapi juga pintu menuju pertumbuhan 
+              pribadi yang luar biasa.
+              </p>
+          <p className="sm:max-h-sm px-10 text-justify"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
+              Pengenalan diri sendiri itu bukan cuma tentang mengerti siapa kita, tapi juga tentang memahami potensi dan batasan kita. Ini tentang 
+              bagaimana kita menghadapi setiap tantangan dan memanfaatkan setiap kesempatan. Banyak dari kita yang sering kali gagal mencapai tujuan 
+              karena kita nggak benar-benar mengerti apa yang kita inginkan atau butuhkan.
+              </p>
+          <p className="sm:max-h-sm px-10 text-justify"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
+          Kita sering terjebak dalam rutinitas yang sama dan lupa untuk berhenti sejenak, merenung, dan bertanya pada diri sendiri, "Apa sih yang 
+          sebenarnya gue cari dalam hidup ini?" Itu adalah bagian dari proses untuk mencapai potensi penuh kita, mengasah kekuatan, dan menghadapi 
+          tantangan dengan mentalitas bahwa ada kehebatan dalam diri kita.
+          yuk bersama sama kita mengenali diri sendiri lewat bincang buku bersama Fanina Huwaida.
+              </p>
+              </div>
+
+          </motion.div>
+        </div>
+        <div
+          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] flex"
+          id="section-3"
+          ref={ref3}
+        >
+          <motion.div
+            className="hero min-h-screen"
+            variants={boxVariant}
+            initial="hidden"
+            animate={control3}
+          >
+            <div className="mt-40 sm:mt-16">
+              <div style={{ 
+                width: '1000px', 
+                height: '250px', 
+                backgroundColor: '#C8AE7D', 
+                marginTop: '10px', 
+                position: "sticky",
+                borderRadius: '20px' }}>  
+              </div>
+              <h1 className="text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '10px', position: 'sticky'}}>
+                  Our Media Partner
+              </h1>
+              <div className="hero-content flex-col lg:flex-row">
+                <img
+                  src="images/cnbc.png"
+                  className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
+                  alt="Stamp GIF"
+                  style={{ width: '130px', height: '120px', marginLeft: '-5px' }}
+                />
+                <img
+                  src="images/gramedia.png"
+                  className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
+                  alt="Stamp GIF"
+                  style={{ width: '130px', height: '120px', marginLeft: '40px' }}
+                />
+                <img
+                  src="images/mandiri.png"
+                  className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
+                  alt="Stamp GIF"
+                  style={{ width: '160px', height: '120px', marginLeft: '30px' }}
+                />
+                <img
+                  src="images/tokopedia.png"
+                  className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
+                  alt="Stamp GIF"
+                  style={{ width: '140px', height: '120px', marginLeft: '20px' }}
+                />
+                <img
+                  src="images/unnes.png"
+                  className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
+                  alt="Stamp GIF"
+                  style={{ width: '100px', height: '120px', marginLeft: '40px' }}
+                />
+              </div>
+            </div>
+            <div className="hero-content flex-col lg:flex-row">
+              <pre className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '-300px', position: 'sticky', marginRight: '200px'}}>
+                By The
+                Number
+              </pre>
+              <pre className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '-300px', position: 'sticky', marginRight: '200px'}}>
+                5.900+
+              </pre>
+              <pre className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '-200px', position: 'sticky', marginRight: '150px'}}>
+                1.000+
+              </pre>
+            </div>
+            <div className="hero-content flex-col lg:flex-row">
+              <pre className="text-4xl animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '15px', marginTop: '-230px', position: 'sticky', marginRight: '130px'}}>
+                Founded in 2015,
+              </pre>
+              <pre className="sm:max-w-sm sm:max-h-sm py-6 text-justify" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '15px', marginTop: '-250px', position: 'sticky', marginRight: '-90px'}}>
+                Active Members listed in our 
+                community until now.
+              </pre>
+              <pre className="sm:max-w-sm sm:max-h-sm py-6 text-justify" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '15px', marginTop: '-150px', position: 'sticky', marginLeft: '30px'}}>
+              Partners collaborating to create 
+              activities, events, and contents.
+              </pre>
+            </div>
+            <div className="hero-content flex-col lg:flex-row">
+              <pre className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '-90px', position: 'sticky', marginLeft: '250px'}}>
+                93.000+
+              </pre>
+              <pre className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '-10px', position: 'sticky', marginLeft: '220px'}}>
+                52+
+              </pre>
+            </div>
+            <div className="hero-content flex-col lg:flex-row">
+              <pre className="sm:max-w-sm sm:max-h-sm py-6 text-justify" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '15px', marginTop: '-40px', position: 'sticky', marginLeft: '300px'}}>
+                Audience in our social media.
+              </pre>
+              <pre className="sm:max-w-sm sm:max-h-sm py-6 text-justify" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '15px', marginTop: '40px', position: 'sticky', marginLeft: '70px'}}>
+                Active Volunteers running our community.
+              </pre>
+            </div>
+          </motion.div>
+        </div>
+        <div
+          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] flex"
+          id="section-4"
+          ref={ref4}
+        >
+          <motion.div
+            className="hero min-h-screen"
+            variants={boxVariant}
+            initial="hidden"
+            animate={control4}
+          >
+            
             <div className="mt-40 sm:mt-16">
               <h1 className="text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '10px', position: 'sticky'}}>
-                  Book Talk
+                  Latest Update
               </h1>
               
               <div className="hero-content flex-col lg:flex-row">
-                <div className="card card-compact w-80 bg-white shadow-xl">
-                  <figure className="px-10 pt-5"><img src="/../images/Booktalk1.png" alt="Shoes" /></figure>
+                <div className="card card-compact w-80 bg-[#C8AE7D] shadow-xl">
+                  <figure className="px-10 pt-5"><img src="images/event1.png" alt="Shoes" /></figure>
                   <div className="card-body">
                   <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
                   KOMPETISI </h2>
@@ -156,7 +326,7 @@ const LandingPage = () => {
                   <div className="card-actions justify-end">
                   <a
                   href="/About/LifeAtBookClub"
-                  className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
+                  className="btn transition ease-in-out delay-50 bg-[#FFF3C7] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
                   style={{ color:"#484848" }}
                   >
                     See More
@@ -165,8 +335,8 @@ const LandingPage = () => {
                   </div>
                 </div>
                 
-                <div className="card card-compact w-80 bg-white shadow-xl">
-                  <figure className="px-10 pt-5"><img src="/../images/Booktalk2.png" alt="Shoes" /></figure>
+                <div className="card card-compact w-80 bg-[#C8AE7D] shadow-xl">
+                  <figure className="px-10 pt-5"><img src="images/event2.png" alt="Shoes" /></figure>
                   <div className="card-body">
                   <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
                     EVENT</h2>
@@ -174,7 +344,7 @@ const LandingPage = () => {
                   <div className="card-actions justify-end">
                   <a
                   href="/About/LifeAtBookClub"
-                  className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
+                  className="btn transition ease-in-out delay-50 bg-[#FFF3C7] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
                   style={{ color:"#484848" }}
                   >
                     See More
@@ -183,8 +353,8 @@ const LandingPage = () => {
                   </div>
                 </div>
                 
-                <div className="card card-compact w-80 bg-white shadow-xl">
-                  <figure className="px-10 pt-5"><img src="/../images/Booktalk3.png" alt="Shoes" /></figure>
+                <div className="card card-compact w-80 bg-[#C8AE7D] shadow-xl">
+                  <figure className="px-10 pt-5"><img src="images/event3.png" alt="Shoes" /></figure>
                   <div className="card-body">
                   <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
                     EVENT</h2>
@@ -192,7 +362,7 @@ const LandingPage = () => {
                   <div className="card-actions justify-end">
                   <a
                   href="/About/LifeAtBookClub"
-                  className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
+                  className="btn transition ease-in-out delay-50 bg-[#FFF3C7] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
                   style={{ color:"#484848" }}
                   >
                     See More
@@ -204,7 +374,6 @@ const LandingPage = () => {
             </div>
           </motion.div>
         </div>
-       
         <div
           className="carousel-item h-screen w-screen bg-[#FFF3C7] flex"
           id="section-5"
@@ -223,7 +392,7 @@ const LandingPage = () => {
                 backgroundColor: '#C8AE7D', 
                 marginTop: '-220px', 
                 position: "sticky",
-                borderRadius: '20px' }}>  
+                borderRadius: '20px' }}>
                 <a
                   href="/JoinNow"
                   className="btn transition ease-in-out delay-50 bg-[#FFF3C7] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
@@ -232,7 +401,6 @@ const LandingPage = () => {
                     Subscribe to Our Channel
                   </a>
               </div>
-              
             </div>
             <pre className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Kaisei Tokumin', color:"#484848", fontSize: '40px', marginTop: '-300px', position: 'sticky', marginRight: '450px'}}>
                 Subscribe To Our Update!
@@ -243,7 +411,7 @@ const LandingPage = () => {
             
             <footer className="footer p-10 bg-[#222831] text-base-content" style= {{marginBottom:'-335px'}}>
                 <aside>
-                  <img src="/../images/logo1.png" style={{ width: '120px', height: '120px', marginTop:'-30px'}}></img>
+                  <img src="images/logo1.png" style={{ width: '120px', height: '120px', marginTop:'-30px'}}></img>
                 <p>Serambi Buku<br/>Founded since 2015</p>
                 </aside> 
                 <nav>
@@ -273,5 +441,4 @@ const LandingPage = () => {
     </div>
   );
 };
-
 export default LandingPage;

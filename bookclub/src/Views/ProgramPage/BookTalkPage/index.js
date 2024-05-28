@@ -150,12 +150,12 @@ const LandingPage = () => {
                   <figure className="px-10 pt-5"><img src="/../images/Booktalk1.png" alt="Shoes" /></figure>
                   <div className="card-body">
                   <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
-                  KOMPETISI </h2>
+                  GROUP DISCUSSION </h2>
                   <p style={{ fontFamily: 'Tinos'}}>
-                    Perlombaan yang diadakan oleh Perpustakaan Bank Indonesi Riau </p>
+                    Forum diskusi yang diadakan oleh Perpustakaan Bank Indonesi Riau </p>
                   <div className="card-actions justify-end">
                   <a
-                  href="/About/LifeAtBookClub"
+                  href=""
                   className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
                   style={{ color:"#484848" }}
                   >
@@ -169,11 +169,11 @@ const LandingPage = () => {
                   <figure className="px-10 pt-5"><img src="/../images/Booktalk2.png" alt="Shoes" /></figure>
                   <div className="card-body">
                   <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
-                    EVENT</h2>
-                  <p style={{ fontFamily: 'Tinos'}}>Flores Writers Festival 2022 di Ende: Mari Bermain di Halaman</p>
+                    # BINCANG BUKU</h2>
+                  <p style={{ fontFamily: 'Tinos'}}>Bincang buku untuk mengetahui tentang dirimu lebih dalam</p>
                   <div className="card-actions justify-end">
                   <a
-                  href="/About/LifeAtBookClub"
+                  href="/Program/BookTalk/EventFlores"
                   className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
                   style={{ color:"#484848" }}
                   >
@@ -187,11 +187,11 @@ const LandingPage = () => {
                   <figure className="px-10 pt-5"><img src="/../images/Booktalk3.png" alt="Shoes" /></figure>
                   <div className="card-body">
                   <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
-                    EVENT</h2>
-                  <p style={{ fontFamily: 'Tinos'}}>Memori dan Metafora di Flores Writers Festival 3 “Sadang Bui” di Maumere</p>
+                    BOOKTALK</h2>
+                  <p style={{ fontFamily: 'Tinos'}}>Perbincangan buku dengan tema diskusi "Milenial & Turn over... Salah & Masalah?"</p>
                   <div className="card-actions justify-end">
                   <a
-                  href="/About/LifeAtBookClub"
+                  href="/Program/BookTalk/EventMemori"
                   className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
                   style={{ color:"#484848" }}
                   >
