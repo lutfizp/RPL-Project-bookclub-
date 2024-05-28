@@ -15,6 +15,8 @@ import JoinNowPage from "./Views/JoinNowPage";
 import FaQPage from "./Views/FaQPage";
 import ContactUsPage from "./Views/ContactUsPage";
 import CompetitionNewsPage from "./Views/ProgramPage/BookTalkPage/CompetitionNewsPage";
+import EventFloresPage from "./Views/ProgramPage/BookTalkPage/EventFloresPage";
+import EventMemoriPage from "./Views/ProgramPage/BookTalkPage/EventMemoriPage";
 
 class App extends Component {
   render() {
@@ -36,6 +38,8 @@ class App extends Component {
             <Route exact path="FaQ" element={<FaQPage />} />
             <Route exact path="/ContactUs" element={<ContactUsPage />} />
             <Route exact path="/Program/Booktalk/CompetitionNews" element={<CompetitionNewsPage />} />
+            <Route exact path="/Program/Booktalk/EventFlores" element={<EventFloresPage />} />
+            <Route exact path="/Program/Booktalk/EventMemori" element={<EventMemoriPage />} />
 
           </Routes>
         </div>
