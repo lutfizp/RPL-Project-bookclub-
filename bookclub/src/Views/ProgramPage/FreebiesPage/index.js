@@ -146,9 +146,9 @@ const FreebiesPage = () => {
             initial="hidden"
             animate={control1}
           >
-            <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '-50px' }}>
+            <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '-80px' }}>
               <div className="md:pr-20 animate-fade-left" style={{ flex: 30 }}>
-                <h1 className="mb-5 mr-80 m:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'kaisei tokumin', color: "#484848", fontSize: '30px', marginLeft: '-35px', marginTop: '90px' }}>
+                <h1 className="mb-5 mr-80 m:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'kaisei tokumin', color: "#484848", fontSize: '30px', marginLeft: '-35px', position: 'relative', top: '-100px' }}>
                   Freebies
                 </h1>
                 <div className="w-[30%] sm:w-[50%] ml-5 mt-2" style={{ marginTop: '-70px' }}> 

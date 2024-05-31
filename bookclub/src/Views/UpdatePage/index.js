@@ -172,6 +172,24 @@ const UpdatePage = () => {
                           <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginTop: '20px', marginLeft: '-16px'}}>
                             Read On
                           </p>
+                          <div className="card-actions justify-end" style={{ marginLeft: '10px' , color:"#F8F0E5"}}>
+                            <a
+                              href="/About/LifeAtBookClub"
+                              className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500"
+                              style={{ 
+                                color:"#484848", 
+                                fontSize: '14px', 
+                                padding: '5px 10px', 
+                                borderRadius: '5px', 
+                                marginTop: '-40px',
+                                backgroundColor: "#FFF3C7",
+                                fontFamily: 'kaisei tokumin'
+                              }}
+                            >
+                              See More
+                            </a>
+                          </div>
+
                           <p style={{ fontFamily: 'kaisei tokumin', color:"#484848", fontSize: '14px', position: 'absolute', marginTop: '50px', transform: 'translateY(-50%)', marginLeft: '-16px'}}>
                             February 3, 2024
                           </p>
@@ -200,11 +218,28 @@ const UpdatePage = () => {
                         <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginTop: '48px', marginLeft: '-16px'}}>
                           Read On
                         </p>
+                        <div className="card-actions justify-end" style={{ marginLeft: '10px' , color:"#F8F0E5"}}>
+                          <a
+                            href="/About/LifeAtBookClub"
+                            className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500"
+                            style={{ 
+                              color:"#484848", 
+                              fontSize: '14px', 
+                              padding: '5px 10px', 
+                              borderRadius: '5px', 
+                              marginTop: '-40px',
+                              backgroundColor: "#FFF3C7",
+                              fontFamily: 'kaisei tokumin'
+                            }}
+                          >
+                            See More
+                          </a>
+                        </div>
                         <p style={{ fontFamily: 'kaisei tokumin', color:"#484848", fontSize: '14px', position: 'absolute', marginTop: '80px', transform: 'translateY(-50%)', marginLeft: '-16px'}}>
                           February 3, 2024
                         </p>
                       </div>
-                  </div>
+                    </div>
                 </div>
                 <div className="w-[30%] sm:w-[30%] ml-75 mr-100">
                   <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '300px', height: '420px', borderRadius: '29px', marginLeft: '32px', marginTop: '55px'}}>
@@ -215,133 +250,53 @@ const UpdatePage = () => {
                       />
                     </figure>
                     <div className="card-body text-justify" style={{ marginTop: '-26px', position: 'relative' }}> 
-                      <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginLeft: '-15px', marginTop: '3px'}}>
+                      <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginLeft: '-20px', marginTop: '3px'}}>
                         Competition
                       </p>
-                      <h1 className="card-title pt-2" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '16px', marginTop: '-12px', wordSpacing: '1px', marginLeft: '30px' }}>
+                      <h1 className="card-title pt-2" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '16px', marginTop: '-12px', wordSpacing: '1px', marginLeft: '-20px' }}>
                         Lomba Resensi Buku & Speech Contest
                       </h1>
-                      <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginTop: '5px', marginLeft: '-15px'}}>
+                      <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginTop: '20px', marginLeft: '-15px'}}>
                         Read On
                       </p>
-                      <p style={{ fontFamily: 'kaisei tokumin', color:"#484848", fontSize: '14px', marginTop: '-50px', marginTop: '-11px',  marginLeft: '-15px'}}>
+                      <div className="card-actions justify-end" style={{ marginLeft: '10px' , color:"#F8F0E5"}}>
+                      <a
+                        href="/About/LifeAtBookClub"
+                        className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500"
+                        style={{ 
+                          color:"#484848", 
+                          fontSize: '14px', 
+                          padding: '5px 10px', 
+                          borderRadius: '5px', 
+                          marginTop: '-40px',
+                          backgroundColor: "#FFF3C7",
+                          fontFamily: 'kaisei tokumin'
+                        }}
+                      >
+                        See More
+                      </a>
+                      </div>
+                    </div>
+                      <p style={{ fontFamily: 'kaisei tokumin', color:"#484848", fontSize: '14px', marginTop: '-50px',  marginLeft: '19px'}}>
                         February 3, 2024
-                      </p>
+                      </p>               
                     </div>
                   </div>
                 </div>
-            </div>
                
           </motion.div>
         </div>
-
-        <div
-      className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] flex"
-      id="section-2"
-      ref={ref2}
-    >
-      <motion.div
-        className="hero min-h-screen"
-        variants={boxVariant}
-        initial="hidden"
-        animate={control2}
-      >
-        
-        <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '-50px' }}>
-          <div className="md:pr-20 animate-fade-left" style={{ flex: 30 }}>
-            <div className="w-[30%] sm:w-[50%] ml-5 mt-2" style={{ marginTop: '-70px' }}> 
-              <div className="flex mt-7 w-full justify-between">
-                <div className="w-[30%] sm:w-[30%] mr-80">
-                  <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '300px', height: '420px', borderRadius: '29px', marginLeft: '-85px', marginTop: '30px' }}>
-                    <figure className="px-4 pt-5">
-                      <img src="/images/update1.jpg" 
-                        alt="Shoes" 
-                        style={{ width: '300px', height: '230px', borderRadius: '24px'}}
-                        />
-                    </figure>
-                    <div className="card-body text-justify" style={{ marginTop: '-26px', position: 'relative' }}> </div>
-                      <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginLeft: '15px', marginTop: '-30px'}}>
-                        Freebies
-                      </p>
-                      <h1 className="card-title pt-2" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '16px', marginTop: '-8px', wordSpacing: '1px', marginLeft: '15px' }}>
-                        2024 Freebies: Printable & Phone Wallpapers
-                      </h1>
-                      <div className="card-body text-justify" style={{ marginTop: '-26px', position: 'relative' }}>
-                        <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginTop: '20px', marginLeft: '-16px'}}>
-                          Read On
-                        </p>
-                        <p style={{ fontFamily: 'kaisei tokumin', color:"#484848", fontSize: '14px', marginTop: '37px',position: 'absolute', marginTop: '50px', transform: 'translateY(-50%)', marginLeft: '-16px'}}>
-                          February 3, 2024
-                        </p>
-                      </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-            <div className="w-[30%] sm:w-[30%] ml-75 mr-100">
-              <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '300px', height: '420px', borderRadius: '29px', marginLeft: '50px', marginTop: '-2px'}}>
-                <figure className="px-4 pt-5">
-                  <img src="/images/update2.jpg" 
-                    alt="Shoes" 
-                    style={{ width: '300px', height: '230px', borderRadius: '24px' }}
-                    />
-                </figure>
-                <div className="card-body text-justify" style={{ marginTop: '-26px', position: 'relative' }}> </div>
-                  <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginLeft: '15px', marginTop: '-30px'}}>
-                    Event
-                  </p>
-                  <h1 className="card-title pt-2" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '16px', marginTop: '-12px', wordSpacing: '1px', marginLeft: '15px' }}>
-                    Temu Penulis Ziggy Bersama Penerbit KPG 
-                  </h1>
-                  <div className="card-body text-justify" style={{ marginTop: '-26px', position: 'relative' }}>
-                    <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginTop: '25px', marginLeft: '-16px'}}>
-                      Read On
-                    </p>
-                    <p style={{ fontFamily: 'kaisei tokumin', color:"#484848", fontSize: '14px', marginTop: '37px',position: 'absolute', marginTop: '55px', transform: 'translateY(-50%)', marginLeft: '-16px'}}>
-                      February 3, 2024
-                    </p>
-                  </div>
-              </div>
-            </div>
-          </div>
-        <div className="w-[30%] sm:w-[30%] ml-75 mr-100">
-          <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '300px', height: '420px', borderRadius: '29px', marginLeft: '45px', marginTop: '-55px'}}>
-            <figure className="px-4 pt-5">
-              <img src="/images/update2.jpg" 
-              alt="Shoes" 
-              style={{ width: '300px', height: '230px', borderRadius: '24px' }}
-              />
-            </figure>
-            <div className="card-body text-justify" style={{ marginTop: '-26px', position: 'relative' }}> </div>
-              <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginLeft: '15px', marginTop: '-30px'}}>
-                Competition
-              </p>
-              <h1 className="card-title pt-2" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '16px', marginTop: '-12px', wordSpacing: '1px', marginLeft: '15px' }}>
-                Open Library Book Review Competition 2024
-              </h1>
-              <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginTop: '30px', marginLeft: '16px'}}>
-                Read On
-              </p>
-              <p style={{ fontFamily: 'kaisei tokumin', color:"#484848", fontSize: '14px', marginTop: '37px',position: 'absolute', marginTop: '8px', transform: 'translateY(-50%)', marginLeft: '16px'}}>
-                February 3, 2024
-              </p>
-
-          </div>
-        </div>
-      </motion.div>
-    </div>
-  </div>
+       
         <div
         className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] flex"
-        id="section-3"
-        ref={ref3}
+        id="section-2"
+        ref={ref2}
       >
         <motion.div
           className="hero min-h-screen"
           variants={boxVariant}
           initial="hidden"
-          animate={control3}
+          animate={control2}
         >
           <div className="mt-20 sm:mt-16">
             <div style={{ 
@@ -431,9 +386,11 @@ const UpdatePage = () => {
               <a className="link link-hover">Contact us</a><br />
             </nav>
           </div>
-          </div>        </motion.div>
+          </div>        
+          </motion.div>
         </div>
-  </div>
+      </div>
+    </div>
 
 
 
