@@ -244,7 +244,7 @@ const UpdatePage = () => {
                 <div className="w-[30%] sm:w-[30%] ml-75 mr-100">
                   <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '300px', height: '420px', borderRadius: '29px', marginLeft: '32px', marginTop: '55px'}}>
                     <figure className="px-4 pt-5">
-                      <img src="/images/update2.jpg" 
+                      <img src="/images/update3.jpg" 
                       alt="Shoes" 
                       style={{ width: '300px', height: '230px', borderRadius: '24px' }}
                       />

@@ -144,15 +144,15 @@ const FreebiesPage = () => {
             initial="hidden"
             animate={control1}
           >
-            <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '-80px' }}>
+            <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '-20px' }}>
               <div className="md:pr-20 animate-fade-left" style={{ flex: 30 }}>
-                <h1 className="mb-5 mr-80 m:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'kaisei tokumin', color: "#484848", fontSize: '30px', marginLeft: '-35px', position: 'relative', top: '-100px' }}>
+                <h1 className="mb-5 mr-80 m:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'kaisei tokumin', color: "#484848", fontSize: '30px', marginLeft: '-35px', position: 'relative', top: '60px' }}>
                   Freebies
                 </h1>
                 <div className="w-[30%] sm:w-[50%] ml-5 mt-2" style={{ marginTop: '-70px' }}> 
                   <div className="flex mt-7 w-full justify-between">
                     <div className="w-[30%] sm:w-[30%] mr-80">
-                      <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '245px', height: '355px', borderRadius: '29px', marginLeft: '-25px', marginTop: '72px' }}>
+                      <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '245px', height: '355px', borderRadius: '29px', marginLeft: '-25px', marginTop: '165px' }}>
                       <figure className="px-4 pt-5">
                       <img src="/images/update1.jpg" 
                       alt="Shoes" 
