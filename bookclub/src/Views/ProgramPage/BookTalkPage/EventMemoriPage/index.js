@@ -140,71 +140,71 @@ const LandingPage = () => {
             initial="hidden"
             animate={control1}
           >
-            <div className="mt-40 sm:mt-16">
-              <h1 className="text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '10px', position: 'sticky'}}>
-                  Book Talk
-              </h1>
-              
-              <div className="hero-content flex-col lg:flex-row">
-                <div className="card card-compact w-80 bg-white shadow-xl">
-                  <figure className="px-10 pt-5"><img src="/../images/Booktalk1.png" alt="Shoes" /></figure>
-                  <div className="card-body">
-                  <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
-                  GROUP DISCUSSION </h2>
-                  <p style={{ fontFamily: 'Tinos'}}>
-                    Forum diskusi yang diadakan oleh Perpustakaan Bank Indonesi Riau </p>
-                  <div className="card-actions justify-end">
-                  <a
-                  href=""
-                  className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
-                  style={{ color:"#484848" }}
-                  >
-                    See More
-                  </a>
-                  </div>
-                  </div>
-                </div>
-                
-                <div className="card card-compact w-80 bg-white shadow-xl">
-                  <figure className="px-10 pt-5"><img src="/../images/Booktalk2.png" alt="Shoes" /></figure>
-                  <div className="card-body">
-                  <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
-                    # BINCANG BUKU</h2>
-                  <p style={{ fontFamily: 'Tinos'}}>Bincang buku untuk mengetahui tentang dirimu lebih dalam</p>
-                  <div className="card-actions justify-end">
-                  <a
-                  href="/Program/BookTalk/EventFlores"
-                  className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
-                  style={{ color:"#484848" }}
-                  >
-                    See More
-                  </a>
-                  </div>
-                  </div>
-                </div>
-                
-                <div className="card card-compact w-80 bg-white shadow-xl">
-                  <figure className="px-10 pt-5"><img src="/../images/Booktalk3.png" alt="Shoes" /></figure>
-                  <div className="card-body">
-                  <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
-                    BOOKTALK</h2>
-                  <p style={{ fontFamily: 'Tinos'}}>Perbincangan buku dengan tema diskusi "Milenial & Turn over... Salah & Masalah?"</p>
-                  <div className="card-actions justify-end">
-                  <a
-                  href="/Program/BookTalk/EventMemori"
-                  className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
-                  style={{ color:"#484848" }}
-                  >
-                    See More
-                  </a>
-                  </div>
-                  </div>
-                </div>
+            <div className="hero-content flex-col lg:flex-row" style={{ }}>
+              <div className="md:pr-20 animate-fade-left" style={{ flex: 30 }}>
+                <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginRight:'-50px'}}>
+                  Update
+                </h1>
+                <img
+                src="/../images/Booktalk3.png"
+                alt="About GIF"
+                style={{ width: '500px', height: 'auto', marginTop: '30px' }}
+              />
               </div>
+              <div className="md:pr- animate-fade-left" style={{ marginTop: '40px' }}>
+              <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginRight:'-50px'}}>
+                  BOOKTALK
+                </h1>
+              <p className="sm:max-w-sm sm:max-h-sm py-3 text-justify animate-fade-up"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
+              Minggu, 4 Oktober 200 pukul 19.00 WIB, Indonesia International Book Fair 2020 bekerja sama dengan Penerbit KPG mengadakan diskusi buku: " 'Milenial' & Turn-over": Salah & Masalah? di zoom. 
+              Berbicara tentang milenial dan turn over memang saat ini menjadi studi kasus yang menarik. Sony Tan, praktisi sekaligus pemerhati, mengambil penelitian tentang milenial dan turn-over sebagai 
+              bahan tesisnya. 
+              </p>
+              </div>  
             </div>
           </motion.div>
         </div>
-       
+        <div
+          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] flex"
+          id="section-2"
+          ref={ref2}
+        >
+    
+          <motion.div
+            className="hero min-h-screen"
+            variants={boxVariant}
+            initial="hidden"
+            animate={control2}
+          > 
+          <div className="md:pr-20 md:pl-20 animate-fade-left" style={{marginTop: '50px' }}>
+          <p className="sm:max-h-sm px-10 text-justify"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
+          Sekian lama bergelut dibidang HR, membuat Sony lebih peka dalam menghadapi perubahan zaman dan perilaku manusia. Bersama Maman Suherman, 
+          Sony Tan menerbitkan buku "'Milenial' & Turnover" yang dikemas menarik dan komunikatif, "Seperti podcast yang dibukukan," sebagaimana diungkapkan Ika, 
+          MC acara hari itu. Menarik ketika melihat perubahan perilaku masyarakat yang berkembang dari waktu ke waktu bersamaan dengan beragam pendukungnya. 
+          Tengoklah zaman dulu ketika orang mencari pekerjaan melalui media cetak yang terpercaya. Berbeda dengan zaman sekarang yang cukup mendaftar di laman penyedia 
+          lowongan kerja, maka seluruh dunia bisa mengetahui profil kita. 
+
+              </p>
+          <p className="sm:max-h-sm px-10 text-justify"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
+          Dalam diskusi yang berlangsung kurang lebih satu jam tersebut, dengan jernih Sony memaparkan: Mengapa karyawan milenial datang dan pergi? 
+          Bagaimana menjembatani Generation Gap? Bagaimana HR menghadapi beragam permasalahan karyawan dan perusahaan di era New Normal ini? dan masih 
+          banyak lagi paparan berikut tips dan triknya seputar dunia kerja yang menarik untuk dibahas. Buku ini tidak hanya ditujukan untuk orang yang bergelut 
+          di bidang pengelolaan sumber daya manusia (Human Resources), namun juga menarik dibaca oleh pencari kerja, kaum milenial, karyawan, para manajer, dan 
+          pemangku kebijakan perusahaan. Untuk teman-teman yang ingin mengikuti pembahasan tersebut, bisa langsung bergabung di link berikut ini.
+
+              </p>
+
+              <a
+                  href="https://youtu.be/QzuvFeZmCp4?feature=shared"
+                  button className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 px-8"
+                  style={{ color:"#484848", marginLeft: '935px' }}
+                  >
+                    Watch Now!
+                  </a>    
+              </div>
+
+          </motion.div>
+        </div>
         <div
           className="carousel-item h-screen w-screen bg-[#FFF3C7] flex"
           id="section-5"
@@ -223,7 +223,7 @@ const LandingPage = () => {
                 backgroundColor: '#C8AE7D', 
                 marginTop: '-220px', 
                 position: "sticky",
-                borderRadius: '20px' }}>  
+                borderRadius: '20px' }}>
                 <a
                   href="/JoinNow"
                   className="btn transition ease-in-out delay-50 bg-[#FFF3C7] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
@@ -232,7 +232,6 @@ const LandingPage = () => {
                     Subscribe to Our Channel
                   </a>
               </div>
-              
             </div>
             <pre className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Kaisei Tokumin', color:"#484848", fontSize: '40px', marginTop: '-300px', position: 'sticky', marginRight: '450px'}}>
                 Subscribe To Our Update!
@@ -273,5 +272,4 @@ const LandingPage = () => {
     </div>
   );
 };
-
 export default LandingPage;
