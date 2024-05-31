@@ -177,32 +177,33 @@ const LandingPage = () => {
             initial="hidden"
             animate={control2}
           > 
-          <div className="md:pr-20 md:pl-20 animate-fade-left" style={{marginTop: '50px' }}>
-          <p className="sm:max-h-sm px-10 text-justify"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
-            Pengenalan diri sendiri itu bukan cuma tentang mengerti siapa kita, tapi juga tentang memahami potensi dan batasan kita. Ini tentang 
+          <div className="md:pr-20 md:pl-20 animate-fade-left" >
+              <p className="sm:max-h-sm px-10 text-justify"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
+              Pengenalan diri sendiri itu bukan cuma tentang mengerti siapa kita, tapi juga tentang memahami potensi dan batasan kita. Ini tentang 
               bagaimana kita menghadapi setiap tantangan dan memanfaatkan setiap kesempatan. Banyak dari kita yang sering kali gagal mencapai tujuan 
               karena kita nggak benar-benar mengerti apa yang kita inginkan atau butuhkan.
               </p>
-          <p className="sm:max-h-sm px-10 text-justify"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
-          Kita sering terjebak dalam rutinitas yang sama dan lupa untuk berhenti sejenak, merenung, dan bertanya pada diri sendiri, "Apa sih yang 
-          sebenarnya gue cari dalam hidup ini?" Itu adalah bagian dari proses untuk mencapai potensi penuh kita, mengasah kekuatan, dan menghadapi 
-          tantangan dengan mentalitas bahwa ada kehebatan dalam diri kita.
+              <p className="sm:max-h-sm px-10 text-justify"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
+              Kita sering terjebak dalam rutinitas yang sama dan lupa untuk berhenti sejenak, merenung, dan bertanya pada diri sendiri, "Apa sih yang 
+              sebenarnya gue cari dalam hidup ini?" Itu adalah bagian dari proses untuk mencapai potensi penuh kita, mengasah kekuatan, dan menghadapi 
+              tantangan dengan mentalitas bahwa ada kehebatan dalam diri kita.
               </p>
-          <p className="sm:max-h-sm px-10 text-justify"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
-          Ini bukan tentang menjadi sempurna, tapi tentang mengenali kelemahan dan kekuatan kita, serta bagaimana kita merespons situasi yang kita 
-          hadapi. Kita yang sering membuat resolusi tahun baru, tapi akhirnya gagal mencapainya. Ternyata, salah satu penyebab utamanya adalah kurangnya 
-          pengenalan diri. Kita sering menetapkan tujuan yang tidak sesuai dengan kemampuan atau kebutuhan kita.
-          Ini seperti berjalan di jalan yang salah dan bertanya-tanya kenapa kita nggak sampai-sampai ke tujuan. Nah, di sini pentingnya pengenalan diri. Dengan mengenali diri kita sendiri, kita bisa menetapkan tujuan yang lebih realistis dan sesuai dengan apa yang sebenarnya kita butuhkan dan inginkan.
-          yuk bersama sama kita mengenali diri sendiri lewat bincang buku bersama Fanina Huwaida.
+              <p className="sm:max-h-sm px-10 text-justify"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
+              Ini bukan tentang menjadi sempurna, tapi tentang mengenali kelemahan dan kekuatan kita, serta bagaimana kita merespons situasi yang kita 
+              hadapi. Kita yang sering membuat resolusi tahun baru, tapi akhirnya gagal mencapainya. Ternyata, salah satu penyebab utamanya adalah kurangnya 
+              pengenalan diri. Kita sering menetapkan tujuan yang tidak sesuai dengan kemampuan atau kebutuhan kita.
+              Ini seperti berjalan di jalan yang salah dan bertanya-tanya kenapa kita nggak sampai-sampai ke tujuan. Nah, di sini pentingnya pengenalan diri. Dengan mengenali diri kita sendiri, kita bisa menetapkan tujuan yang lebih realistis dan sesuai dengan apa yang sebenarnya kita butuhkan dan inginkan.
+              yuk bersama sama kita mengenali diri sendiri lewat bincang buku bersama Fanina Huwaida.
               </p>
-              <a
+              <div className="flex flex-col items-center mt-8">
+                <a
                   href="https://unnes-ac-id.zoom.us/j/93469130751?pwd=UEpOVnl2WU1rbVRDUWFIQXR3SDlpQT09"
-                  button className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 px-8"
-                  style={{ color:"#484848", marginLeft: '950px' }}
+                  button className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 px-8 text-center"
                   >
                     Join Now!
-                  </a>    
+                </a>
               </div>
+            </div>
 
           </motion.div>
         </div>

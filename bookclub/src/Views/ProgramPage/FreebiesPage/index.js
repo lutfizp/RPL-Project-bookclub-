@@ -50,6 +50,17 @@ const FreebiesPage = () => {
     }
   }, [control5, inView5]);
 
+  useEffect(() => {
+    let scrollTimeout;
+    const scroll = () => {
+      window.scrollBy(0, 2); // Change the scroll speed here
+      scrollTimeout = setTimeout(scroll, 20); // Adjust the timeout as needed
+    };
+    scroll();
+
+    return () => clearTimeout(scrollTimeout); // Cleanup the timeout on component unmount
+  }, []);
+
   
   return (
     
@@ -146,7 +157,7 @@ const FreebiesPage = () => {
           >
             <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '-20px' }}>
               <div className="md:pr-20 animate-fade-left" style={{ flex: 30 }}>
-                <h1 className="mb-5 mr-80 m:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'kaisei tokumin', color: "#484848", fontSize: '30px', marginLeft: '-35px', position: 'relative', top: '60px' }}>
+                <h1 className="mb-5 mr-80 m:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'kaisei tokumin', color: "#484848", fontSize: '30px', marginLeft: '-35px', position: 'relative', top: '50px' }}>
                   Freebies
                 </h1>
                 <div className="w-[30%] sm:w-[50%] ml-5 mt-2" style={{ marginTop: '-70px' }}> 
