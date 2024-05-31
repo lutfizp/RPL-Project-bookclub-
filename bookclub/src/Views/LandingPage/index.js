@@ -130,7 +130,7 @@ const LandingPage = () => {
       </div>
       <div className="max-h-screen carousel carousel-vertical max-w-screen flex flex-col pt-16">
         <div
-          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-80% to-[#FFF3C7] flex"
+          className="carousel-item h-screen w-screen bg-gradient-to-b from-[b] from-80% to-[#FFF3C7] flex"
           id="section-1"
           ref={ref1}
         >
