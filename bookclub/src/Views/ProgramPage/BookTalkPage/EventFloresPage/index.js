@@ -153,7 +153,7 @@ const LandingPage = () => {
               </div>
               <div className="md:pr- animate-fade-left" style={{ marginTop: '70px' }}>
               <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginRight:'-50px'}}>
-                  #BINCANG BUKA
+                  #BINCANG BUKU
                 </h1>
               <p className="sm:max-w-sm sm:max-h-sm py-3 text-justify animate-fade-up"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
               Pengenalan terhadap diri sendiri (know yourself) adalah salah satu kunci penting untuk proses pencapaian kita menuju kesuksesan. 
@@ -195,14 +195,13 @@ const LandingPage = () => {
               Ini seperti berjalan di jalan yang salah dan bertanya-tanya kenapa kita nggak sampai-sampai ke tujuan. Nah, di sini pentingnya pengenalan diri. Dengan mengenali diri kita sendiri, kita bisa menetapkan tujuan yang lebih realistis dan sesuai dengan apa yang sebenarnya kita butuhkan dan inginkan.
               yuk bersama sama kita mengenali diri sendiri lewat bincang buku bersama Fanina Huwaida.
               </p>
-              <div className="flex flex-col items-center mt-8">
-                <a
-                  href="https://unnes-ac-id.zoom.us/j/93469130751?pwd=UEpOVnl2WU1rbVRDUWFIQXR3SDlpQT09"
-                  button className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 px-8 text-center"
+              <a
+                  href="https://unnes-ac-id.zoom.us/j/98950939768?pwd=aU00ckxkVjdrV1NIZk5Nc1JSZ1YzZz09"
+                  button className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 px-8"
+                  style={{ color:"#484848", marginLeft: '950px' }}
                   >
                     Join Now!
-                </a>
-              </div>
+              </a> 
             </div>
 
           </motion.div>
