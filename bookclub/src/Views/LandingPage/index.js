@@ -130,7 +130,7 @@ const LandingPage = () => {
       </div>
       <div className="max-h-screen carousel carousel-vertical max-w-screen flex flex-col pt-16">
         <div
-          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-80% to-[#FFF3C7] flex"
+          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] flex"
           id="section-1"
           ref={ref1}
         >
@@ -399,14 +399,14 @@ const LandingPage = () => {
                 </div>
                 
                 <div className="card card-compact w-80 bg-[#C8AE7D] shadow-xl">
-                  <figure className="px-10 pt-5"><img src="images/event2.png" alt="Shoes" /></figure>
+                  <figure className="px-10 pt-5"><img src="images/BookTalk2.png" alt="Shoes" /></figure>
                   <div className="card-body">
                   <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
                     EVENT</h2>
-                  <p style={{ fontFamily: 'Tinos'}}>Flores Writers Festival 2022 di Ende: Mari Bermain di Halaman</p>
+                  <p style={{ fontFamily: 'Tinos'}}>Pengenalan diri sendiri itu bukan cuma tentang mengerti siapa kita, tapi juga...</p>
                   <div className="card-actions justify-end">
                   <a
-                  href="/About/LifeAtBookClub"
+                  href="/Program/BookTalk/EventFlores"
                   className="btn transition ease-in-out delay-50 bg-[#FFF3C7] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
                   style={{ color:"#484848" }}
                   >
