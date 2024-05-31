@@ -155,7 +155,7 @@ const LandingPage = () => {
                     Forum diskusi yang diadakan oleh Perpustakaan Bank Indonesi Riau </p>
                   <div className="card-actions justify-end">
                   <a
-                  href=""
+                  href="/Program/BookTalk/CompetitionNews"
                   className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
                   style={{ color:"#484848" }}
                   >

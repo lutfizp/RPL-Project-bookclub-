@@ -146,20 +146,20 @@ const LandingPage = () => {
                   Update
                 </h1>
                 <img
-                src="/../images/Booktalk2.png"
+                src="/../images/Booktalk1.png"
                 alt="About GIF"
                 style={{ width: '500px', height: 'auto', marginTop: '30px' }}
               />
               </div>
               <div className="md:pr- animate-fade-left" style={{ marginTop: '70px' }}>
               <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginRight:'-50px'}}>
-                  #BINCANG BUKA
+                  GROUP DISCUSSION
                 </h1>
               <p className="sm:max-w-sm sm:max-h-sm py-3 text-justify animate-fade-up"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
-              Pengenalan terhadap diri sendiri (know yourself) adalah salah satu kunci penting untuk proses pencapaian kita menuju kesuksesan. 
-              Banyak orang yang tidak mendapatkan progress dalam perjalanan kesuksesannya semata – mata karena kurangnya pengenalan terhadap diri 
-              sendiri. ,Di era yang serba cepat ini, pengenalan diri bukan cuma jadi kunci kesuksesan dan kebahagiaan, tapi juga pintu menuju pertumbuhan 
-              pribadi yang luar biasa.
+              International Standard Book Number (ISBN) merupakan nomor atau kode pengindetifikasian unik pada buku yang di dalamnya tercantum judul, penerbit, hingga kelompok penerbit. 
+              Baru-baru ini, isu terkait krisis ISBN mencuat di media sosial X. ISBN terdiri dari 13 digit nomor unik yang diterbitkan oleh lembaga internasional, Badan Internasional ISBN, 
+              yang berbasis di London. Nomor ISBN ini disalurkan kepada negara-negara di dunia secara rutin dalam jangka waktu tertentu, termasuk Indonesia.
+
               </p>
               </div>  
             </div>
@@ -179,22 +179,26 @@ const LandingPage = () => {
           > 
           <div className="md:pr-20 md:pl-20 animate-fade-left" style={{ }}>
           <p className="sm:max-h-sm px-10 text-justify"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
-              Pengenalan terhadap diri sendiri (know yourself) adalah salah satu kunci penting untuk proses pencapaian kita menuju kesuksesan. 
-              Banyak orang yang tidak mendapatkan progress dalam perjalanan kesuksesannya semata – mata karena kurangnya pengenalan terhadap diri 
-              sendiri. ,Di era yang serba cepat ini, pengenalan diri bukan cuma jadi kunci kesuksesan dan kebahagiaan, tapi juga pintu menuju pertumbuhan 
-              pribadi yang luar biasa.
+            Pendistribusian itu juga memiliki jumlah kuota terbatas. Jumlah nomor ISBN yang dialokasikan terakhir kali untuk Indonesia pada 2018 
+            adalah 1 juta nomor. Satu-satunya lembaga dalam negeri yang berhak menyalurkan ISBN di perusahaan penerbit Indonesia adalah Perpustakaan 
+            Nasional (Perpusnas).
+          </p>
+          <p className="sm:max-h-sm px-10 text-justify"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
+            Mengutip dari berbagai sumber, krisis ISBN merupakan kasus istimewa yang mulai muncul pada 2020 dan 2021. Kasus ini muncul sebagai 
+            imbas dari penerbitan masif yang terjadi selama pandemi Covid-19.
               </p>
           <p className="sm:max-h-sm px-10 text-justify"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
-              Pengenalan diri sendiri itu bukan cuma tentang mengerti siapa kita, tapi juga tentang memahami potensi dan batasan kita. Ini tentang 
-              bagaimana kita menghadapi setiap tantangan dan memanfaatkan setiap kesempatan. Banyak dari kita yang sering kali gagal mencapai tujuan 
-              karena kita nggak benar-benar mengerti apa yang kita inginkan atau butuhkan.
+          Masifnya penerbitan buku kemudian melahirkan krisis ISBN di Indonesia. Dari jumlah 1 juta nomor yang dialokasikan untuk Indonesia, 
+          kini hanya tersisa 270 ribu nomor ISBN. lalu, apasih dampak dari krisis itu sendiri? Yuk, kita bahas bersama topik tersebut di pertemuan 
+          virtual kita dibawah ini
               </p>
-          <p className="sm:max-h-sm px-10 text-justify"style={{ fontFamily: 'Rosarivo', color:"#484848", fontStyle: 'italic', fontSize: '20px'}}>
-          Kita sering terjebak dalam rutinitas yang sama dan lupa untuk berhenti sejenak, merenung, dan bertanya pada diri sendiri, "Apa sih yang 
-          sebenarnya gue cari dalam hidup ini?" Itu adalah bagian dari proses untuk mencapai potensi penuh kita, mengasah kekuatan, dan menghadapi 
-          tantangan dengan mentalitas bahwa ada kehebatan dalam diri kita.
-          yuk bersama sama kita mengenali diri sendiri lewat bincang buku bersama Fanina Huwaida.
-              </p>
+              <a
+                  href="https://unnes-ac-id.zoom.us/j/98950939768?pwd=aU00ckxkVjdrV1NIZk5Nc1JSZ1YzZz09"
+                  button className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 px-8"
+                  style={{ color:"#484848", marginLeft: '950px' }}
+                  >
+                    Join Now!
+              </a> 
               </div>
 
           </motion.div>
