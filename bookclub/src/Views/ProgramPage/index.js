@@ -78,6 +78,7 @@ const FreebiesPage = () => {
             </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
+            href="/Program"
             className="px-2 group hover:text-white"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
@@ -85,12 +86,13 @@ const FreebiesPage = () => {
             style={{ fontFamily: 'kaisei tokumin', position: 'relative' }} // Tambahkan position: relative
           >
             Program
-            <div className="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block" style={{ zIndex: 20 }}> 
+            <div className="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block" style={{ zIndex: 20 }}> // Tambahkan style zIndex
               <a href="/Program/BookTalk" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">BookTalk, Discussion, Bootcamp</a>
               <a href="/Program/Competition" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Competition</a>
               <a href="/Program/" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Freebies</a>
             </div>
           </motion.a>
+
 
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a

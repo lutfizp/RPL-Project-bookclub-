@@ -65,7 +65,7 @@ const FreebiesPage = () => {
   return (
     
     <div className="FreebiesPage" style={{ overflowX: 'hidden' }}>
-      <div className="navbar flex fixed z-10 rounded-b-lg w-full" style={{ backgroundColor: '#C8AE7D', overflowX: 'hidden'}}>
+            <div className="navbar flex fixed z-10 rounded-b-lg w-full" style={{ backgroundColor: '#C8AE7D' }}>
             <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, x: 20 }}
@@ -84,7 +84,7 @@ const FreebiesPage = () => {
             <div class="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block">
                 <a href="/About/VisiMisi" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Visi Misi</a>
                 <a href="/About/LifeAtBookClub" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Life At Book Club</a>
-                <a href="/Vision" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Vision</a>
+                <a href="/About/SupportUs" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Support Us</a>
             </div>
             </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
@@ -136,9 +136,9 @@ const FreebiesPage = () => {
             style={{fontFamily: 'kaisei tokumin'}}
           >
             <img 
-            src="images/logo1.2.png" 
+            src="/../images/logo1.2.png" 
             alt="Home" 
-            style={{width: "80px", height: "auto"}} />
+            style={{width: "75px", height: "40px"}} />
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
           </motion.a>
         </motion.div>
