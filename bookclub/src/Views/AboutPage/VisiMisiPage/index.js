@@ -272,18 +272,16 @@ const LandingPage = () => {
                 <p>Serambi Buku<br/>Founded since 2015</p>
                 </aside> 
                 <nav>
-                  <h6 className="footer-title">Services</h6> 
-                  <a className="link link-hover">Branding</a>
-                  <a className="link link-hover">Design</a>
-                  <a className="link link-hover">Marketing</a>
-                  <a className="link link-hover">Advertisement</a>
+                  <h6 className="footer-title">Program</h6> 
+                  <a href="/Program/BookTalk" className="link link-hover">BookTalk</a>
+                  <a href="/Program/Competition" className="link link-hover">Competition</a>
+                  <a href="/Program/Freebies" className="link link-hover">Freebies</a>
                 </nav> 
                 <nav>
                 <h6 className="footer-title">Company</h6> 
                 <a href="/About/LifeAtBookClub" className="link link-hover">About us</a>
                 <a href="https://wa.me/6281285183841" className="link link-hover">Contact</a>
-                <a className="link link-hover">Jobs</a>
-                <a className="link link-hover">Press kit</a>
+                <a href="/About/SupportUs" className="link link-hover">Support Us</a>
                 </nav> 
                 <nav>
                 <h6 className="footer-title">Legal</h6> 
