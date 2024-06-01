@@ -88,7 +88,7 @@ const boxVariant = {
                         <div class="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block">
                             <a href="/Program/BookTalk" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">BookTalk, Discussion, Bootcamp</a>
                             <a href="/Program/Competition" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Competition</a>
-                            <a href="/Program/" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Freebies</a>
+                            <a href="/Program/Freebies" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Freebies</a>
                         </div>
                     </motion.a>
                     <div className="divider divider-horizontal bg-white w-auto"></div>
@@ -169,7 +169,7 @@ const boxVariant = {
                                                 </p>
                                                     <div className="card-actions justify-end" style={{ marginLeft: '10px' , color:"#F8F0E5"}}>
                                                     <a
-                                                        href="/About/LifeAtBookClub"
+                                                        href="/Program/Competition/OpenLibary"
                                                         className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500"
                                                         style={{ 
                                                             color:"#484848", 
@@ -208,7 +208,7 @@ const boxVariant = {
                                         </p>
                                         <div className="card-actions justify-end" style={{ marginLeft: '10px' , color:"#F8F0E5"}}>
                                             <a
-                                                href="/About/LifeAtBookClub"
+                                                href="/Program/Competition/OpenResensi"
                                                 className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500"
                                                 style={{ 
                                                 color:"#484848", 
