@@ -70,7 +70,7 @@ const LandingPage = () => {
             <div class="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block">
                 <a href="/About/VisiMisi" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Visi Misi</a>
                 <a href="/About/LifeAtBookClub" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Life At Book Club</a>
-                <a href="/Vision" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Support Us</a>
+                <a href="/About/SupportUs" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Support Us</a>
             </div>
             </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
@@ -319,8 +319,8 @@ const LandingPage = () => {
                 </nav> 
                 <nav>
                 <h6 className="footer-title">Company</h6> 
-                <a className="link link-hover">About us</a>
-                <a className="link link-hover">Contact</a>
+                <a href="/About/LifeAtBookClub" className="link link-hover">About us</a>
+                <a href="https://wa.me/6281285183841" className="link link-hover">Contact</a>
                 <a className="link link-hover">Jobs</a>
                 <a className="link link-hover">Press kit</a>
                 </nav> 

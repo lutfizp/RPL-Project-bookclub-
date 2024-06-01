@@ -424,7 +424,7 @@ const LandingPage = () => {
                   <p style={{ fontFamily: 'Tinos'}}>Memori dan Metafora di Flores Writers Festival 3 “Sadang Bui” di Maumere</p>
                   <div className="card-actions justify-end">
                   <a
-                  href="/About/LifeAtBookClub"
+                  href="/Update/EventUpdate1"
                   className="btn transition ease-in-out delay-50 bg-[#FFF3C7] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
                   style={{ color:"#484848" }}
                   >
@@ -486,10 +486,9 @@ const LandingPage = () => {
                 </nav> 
                 <nav>
                 <h6 className="footer-title">Company</h6> 
-                <a className="link link-hover">About us</a>
-                <a className="link link-hover">Contact</a>
+                <a href="/About/LifeAtBookClub" className="link link-hover">About us</a>
+                <a href="https://wa.me/6281285183841" className="link link-hover">Contact</a>
                 <a className="link link-hover">Jobs</a>
-                <a className="link link-hover">Press kit</a>
                 </nav> 
                 <nav>
                 <h6 className="footer-title">Legal</h6> 
