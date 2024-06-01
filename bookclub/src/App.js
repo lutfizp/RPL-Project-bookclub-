@@ -19,6 +19,8 @@ import EventFloresPage from "./Views/ProgramPage/BookTalkPage/EventFloresPage";
 import EventMemoriPage from "./Views/ProgramPage/BookTalkPage/EventMemoriPage";
 import EventUpdate1Page from "./Views/UpdatePage/EventUpdate1Page";
 import EventUpdate2Page from "./Views/UpdatePage/EventUpdate2Page";
+import OpenLibaryPage from "./Views/ProgramPage/CompetitionPage/OpenLibaryPage";
+import OpenResensiPage from "./Views/ProgramPage/CompetitionPage/OpenResensiPage";
 
 
 class App extends Component {
@@ -45,6 +47,9 @@ class App extends Component {
             <Route exact path="/Program/Booktalk/EventMemori" element={<EventMemoriPage />} />
             <Route exact path="/Update/EventUpdate1" element={<EventUpdate1Page/>} />
             <Route exact path="/Update/EventUpdate2" element={<EventUpdate2Page/>} />
+            <Route exact path="/Program/competition/OpenLibary" element={<OpenLibaryPage />} />
+            <Route exact path="/Program/competition/OpenResensi" element={<OpenResensiPage/>} />
+
 
           </Routes>
         </div>

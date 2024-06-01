@@ -54,7 +54,7 @@ const UpdatePage = () => {
   return (
     
     <div className="FreebiesPage" style={{ overflowX: 'hidden' }}>
-                  <div className="navbar flex fixed z-10 rounded-b-lg w-full" style={{ backgroundColor: '#C8AE7D' }}>
+          <div className="navbar flex fixed z-10 rounded-b-lg w-full" style={{ backgroundColor: '#C8AE7D' }}>
             <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, x: 20 }}
