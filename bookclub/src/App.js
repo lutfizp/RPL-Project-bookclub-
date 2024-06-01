@@ -21,6 +21,9 @@ import EventUpdate1Page from "./Views/UpdatePage/EventUpdate1Page";
 import EventUpdate2Page from "./Views/UpdatePage/EventUpdate2Page";
 import OpenLibaryPage from "./Views/ProgramPage/CompetitionPage/OpenLibaryPage";
 import OpenResensiPage from "./Views/ProgramPage/CompetitionPage/OpenResensiPage";
+import Freebies22Page from "./Views/ProgramPage/FreebiesPage/Freebies22Page";
+import Freebies23Page from "./Views/ProgramPage/FreebiesPage/Freebies23Page";
+import Freebies24Page from "./Views/ProgramPage/FreebiesPage/Freebies24Page";
 
 
 class App extends Component {
@@ -49,6 +52,10 @@ class App extends Component {
             <Route exact path="/Update/EventUpdate2" element={<EventUpdate2Page/>} />
             <Route exact path="/Program/competition/OpenLibary" element={<OpenLibaryPage />} />
             <Route exact path="/Program/competition/OpenResensi" element={<OpenResensiPage/>} />
+            <Route exact path="/Program/Freebies/Freebies22" element={<Freebies22Page />} />
+            <Route exact path="/Program/Freebies/Freebies23" element={<Freebies23Page />} />
+            <Route exact path="/Program/Freebies/Freebies24" element={<Freebies24Page />} />
+            
 
 
           </Routes>
