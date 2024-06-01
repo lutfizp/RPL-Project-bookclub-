@@ -174,7 +174,7 @@ const UpdatePage = () => {
                           </p>
                           <div className="card-actions justify-end" style={{ marginLeft: '10px' , color:"#F8F0E5"}}>
                             <a
-                              href="/About/LifeAtBookClub"
+                              href="/Update/EventUpdate1"
                               className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500"
                               style={{ 
                                 color:"#484848", 
@@ -220,7 +220,7 @@ const UpdatePage = () => {
                         </p>
                         <div className="card-actions justify-end" style={{ marginLeft: '10px' , color:"#F8F0E5"}}>
                           <a
-                            href="/About/LifeAtBookClub"
+                            href="/Update/EventUpdate2"
                             className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500"
                             style={{ 
                               color:"#484848", 
@@ -377,8 +377,8 @@ const UpdatePage = () => {
             </nav>
             <nav style={{ marginLeft: '150px', marginTop: '40px', color: '#F8F0E5', fontFamily: 'kaisei tokumin' }}>
               <h6 className="card-title">Company</h6>
-              <a className="link link-hover">About us</a><br />
-              <a className="link link-hover">Career</a><br />
+              <a href="/About/LifeAtBookClub" className="link link-hover">About us</a>
+              <a href="https://wa.me/6281285183841" className="link link-hover">Contact</a>
               <a className="link link-hover">Privacy Police</a><br />
             </nav>
             <nav style={{ marginLeft: '150px', marginTop: '40px', color: '#F8F0E5', fontFamily: 'kaisei tokumin' }}>
