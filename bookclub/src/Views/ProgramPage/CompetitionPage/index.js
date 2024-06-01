@@ -191,7 +191,7 @@ const boxVariant = {
                                         Lomba Resensi Buku & Speech Contest
                                     </h1>
                                     <div className="card-body text-justify" style={{ marginTop: '-26px', position: 'relative' }}>
-                                        <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginTop: '70px', marginLeft: '-16px'}}>
+                                        <p style={{ fontFamily: 'kaisei tokumin', color:"#F8F0E5", textAlign: 'justify', fontSize: '14px', marginTop: '72px', marginLeft: '-20px'}}>
                                             February 3, 2024
                                         </p>
                                         <div className="card-actions justify-end" style={{ marginLeft: '10px' , color:"#F8F0E5"}}>
@@ -203,7 +203,7 @@ const boxVariant = {
                                                 fontSize: '14px', 
                                                 padding: '5px 10px', 
                                                 borderRadius: '5px', 
-                                                marginTop: '-50px',
+                                                marginTop: '-49px',
                                                 backgroundColor: "#FFF3C7",
                                                 fontFamily: 'kaisei tokumin'
                                                 }}
