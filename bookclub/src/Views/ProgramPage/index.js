@@ -54,7 +54,7 @@ const FreebiesPage = () => {
   return (
     
     <div className="FreebiesPage" style={{ overflowX: 'hidden' }}>
-      <div className="navbar flex fixed z-10 rounded-b-lg w-full" style={{ backgroundColor: '#C8AE7D', overflowX: 'visible', position: 'relative'}}>
+<div className="navbar flex fixed z-10 rounded-b-lg w-full" style={{ backgroundColor: '#C8AE7D' }}>
             <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, x: 20 }}
@@ -73,27 +73,24 @@ const FreebiesPage = () => {
             <div class="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block">
                 <a href="/About/VisiMisi" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Visi Misi</a>
                 <a href="/About/LifeAtBookClub" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Life At Book Club</a>
-                <a href="/Vision" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Vision</a>
+                <a href="/About/SupportUs" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Support Us</a>
             </div>
             </motion.a>
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
-            href="/Program"
             className="px-2 group hover:text-white"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
             transition={{ ease: "easeOut", duration: 0.3 }}
-            style={{ fontFamily: 'kaisei tokumin', position: 'relative' }} // Tambahkan position: relative
+            style={{fontFamily: 'kaisei tokumin'}}
           >
             Program
-            <div className="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block" style={{ zIndex: 20 }}> // Tambahkan style zIndex
-              <a href="/Program/BookTalk" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">BookTalk, Discussion, Bootcamp</a>
-              <a href="/Program/Competition" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Competition</a>
-              <a href="/Program/" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Freebies</a>
+            <div class="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block">
+                <a href="/Program/BookTalk" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">BookTalk, Discussion, Bootcamp</a>
+                <a href="/Program/Competition" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Competition</a>
+                <a href="/Program/" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Freebies</a>
             </div>
           </motion.a>
-
-
           <div className="divider divider-horizontal bg-white w-auto"></div>
           <motion.a
             href="/Update"
@@ -130,7 +127,7 @@ const FreebiesPage = () => {
             <img 
             src="images/logo1.2.png" 
             alt="Home" 
-            style={{width: "80px", height: "auto"}} />
+            style={{width: "75px", height: "40px"}} />
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
           </motion.a>
         </motion.div>
