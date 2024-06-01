@@ -55,30 +55,30 @@ const boxVariant = {
             <div className="App h-auto w-auto" style={{ backgroundColor: '#FFF3C7', overflowX: 'hidden' }}>
                 <div className="App overflow-hidden"></div>
                 <div className="navbar flex fixed z-10 rounded-b-lg w-full" style={{ backgroundColor: '#C8AE7D' }}>
-                    <motion.div
+                        <motion.div
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1, x: 20 }}
                         transition={{ ease: "easeOut", duration: 1 }}
                         className="container flex justify-center"
                     >
-                          <motion.a
-                        className="px-2 group hover:text-yellow-950"
+                        <motion.a
+                        className="relative px-2 group hover:text-white"
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 1.3 }}
                         transition={{ ease: "easeOut", duration: 0.3 }}
                         style={{fontFamily: 'kaisei tokumin'}}
-                    >
+                        >
                         About
                         <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
                         <div class="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden group-hover:block">
                             <a href="/About/VisiMisi" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Visi Misi</a>
                             <a href="/About/LifeAtBookClub" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Life At Book Club</a>
-                            <a href="/Vision" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Vision</a>
+                            <a href="/About/SupportUs" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Support Us</a>
                         </div>
                         </motion.a>
                     <div className="divider divider-horizontal bg-white w-auto"></div>
                     <motion.a
-                        className="px-2 group text-yellow-950"
+                        className="px-2 group hover:text-white"
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 1.3 }}
                         transition={{ ease: "easeOut", duration: 0.3 }}
@@ -93,30 +93,42 @@ const boxVariant = {
                     </motion.a>
                     <div className="divider divider-horizontal bg-white w-auto"></div>
                     <motion.a
-                        href="https://wa.me/6281285183841"
-                        className="px-2 group hover:text-yellow-950"
+                        href="/Update"
+                        className="px-2 group hover:text-white"
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 1.3 }}
                         transition={{ ease: "easeOut", duration: 0.3 }}
                         style={{fontFamily: 'kaisei tokumin'}}
                     >
-                        Contact Us
+                        Update
                         <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
                     </motion.a>
                     <div className="divider divider-horizontal bg-white w-auto"></div>
                     <motion.a
-                            href="/"
-                            className="px-2 group hover:text-white"
-                            whileHover={{ scale: 1.1 }}
-                            whileTap={{ scale: 1.3 }}
-                            transition={{ ease: "easeOut", duration: 0.3 }}
-                            style={{fontFamily: 'kaisei tokumin'}}
-                        >
+                        href="/JoinNow"
+                        className="px-2 group hover:text-white"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 1.3 }}
+                        transition={{ ease: "easeOut", duration: 0.3 }}
+                        style={{fontFamily: 'kaisei tokumin'}}
+                    >
+                        Join Now
+                        <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
+                    </motion.a>
+                    <div className="divider divider-horizontal bg-white w-auto"></div>
+                    <motion.a
+                        href="/"
+                        className="px-2 group hover:text-white"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 1.3 }}
+                        transition={{ ease: "easeOut", duration: 0.3 }}
+                        style={{fontFamily: 'kaisei tokumin'}}
+                    >
                         <img 
-                            src="/../images/logo1.2.png" 
-                            alt="Home" 
-                            style={{width: "75px", height: "40px"}} />
-                            <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
+                        src="/../images/logo1.2.png" 
+                        alt="Home" 
+                        style={{width: "75px", height: "40px"}} />
+                        <span class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
                     </motion.a>
                     </motion.div>
                 </div>
