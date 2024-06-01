@@ -157,56 +157,106 @@ const FreebiesPage = () => {
           >
             <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '-20px' }}>
               <div className="md:pr-20 animate-fade-left" style={{ flex: 30 }}>
-                <h1 className="mb-5 mr-80 m:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'kaisei tokumin', color: "#484848", fontSize: '30px', marginLeft: '-35px', position: 'relative', top: '50px' }}>
+                <h1 className="mb-5 mr-80 m:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'kaisei tokumin', color: "#484848", fontSize: '30px', marginLeft: '-35px', position: 'relative', top: '90px' }}>
                   Freebies
                 </h1>
                 <div className="w-[30%] sm:w-[50%] ml-5 mt-2" style={{ marginTop: '-70px' }}> 
                   <div className="flex mt-7 w-full justify-between">
                     <div className="w-[30%] sm:w-[30%] mr-80">
-                      <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '245px', height: '355px', borderRadius: '29px', marginLeft: '-25px', marginTop: '165px' }}>
+                      <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '300px', height: '420px', borderRadius: '29px', marginLeft: '-25px', marginTop: '165px' }}>
                       <figure className="px-4 pt-5">
-                      <img src="/images/update1.jpg" 
+                      <img src="/images/update4.jpg" 
                       alt="Shoes" 
-                      style={{ width: '245px', height: '230px', borderRadius: '24px'}}
+                      style={{ width: '300px', height: '230px', borderRadius: '24px'}}
                       />
                       </figure>
                       <div className="card-body text-justify" style={{ marginTop: '-26px', position: 'relative' }}> </div>
                         <h1 className="card-title pt-2" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '16px', marginTop: '-20px', wordSpacing: '1px', marginLeft: '15px' }}>
-                          2024 Freebies: Printables & Phone Wallpapers
+                          2024 Freebie: Printables & Phone Wallpapers
                         </h1>
+                        <a
+                            href="/About/LifeAtBookClub"
+                            className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500"
+                            style={{ 
+                              color:"#484848", 
+                              fontSize: '14px', 
+                              padding: '5px 10px', 
+                              borderRadius: '5px', 
+                              marginTop: '15px',
+                              marginLeft: '200px',
+                              backgroundColor: "#FFF3C7",
+                              fontFamily: 'kaisei tokumin'
+                            }}
+                        >
+                          See More
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
                 <div className="w-[30%] sm:w-[30%] ml-75 mr-100">
-                  <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '245px', height: '355px', borderRadius: '29px', marginLeft: '-338px', marginTop: '165px'}}>
+                  <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '300px', height: '420px', borderRadius: '29px', marginLeft: '-365px', marginTop: '165px'}}>
                     <figure className="px-4 pt-5">
-                      <img src="/images/update2.jpg" 
+                      <img src="/images/compet2.png" 
                       alt="Shoes" 
-                      style={{ width: '245px', height: '194px', borderRadius: '24px' }}
+                      style={{ width: '300px', height: '230px', borderRadius: '24px' }}
                       />
                     </figure>
                     <div className="card-body text-justify" style={{ marginTop: '-26px', position: 'relative' }}> </div>
                       <h1 className="card-title pt-2" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '16px', marginTop: '-12px', wordSpacing: '1px', marginLeft: '15px' }}>
                         2023 Freebies: Printables & Phone Wallpapers
                       </h1>
+                      <a
+                            href="/About/LifeAtBookClub"
+                            className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500"
+                            style={{ 
+                              color:"#484848", 
+                              fontSize: '14px', 
+                              padding: '5px 10px', 
+                              borderRadius: '5px', 
+                              marginTop: '15px',
+                              marginLeft: '200px',
+                              backgroundColor: "#FFF3C7",
+                              fontFamily: 'kaisei tokumin'
+                            }}
+                        >
+                          See More
+                        </a>
                   </div>
                 </div>
                 <div className="w-[30%] sm:w-[30%] ml-75 mr-100">
-                  <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '245px', height: '355px', borderRadius: '29px', marginLeft: '-30px', marginTop: '165px'}}>
+                  <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '300px', height: '420px', borderRadius: '29px', marginLeft: '-30px', marginTop: '170px'}}>
                     <figure className="px-4 pt-5">
-                      <img src="/images/update2.jpg" 
+                      <img src="/images/compet3.png" 
                       alt="Shoes" 
-                      style={{ width: '245px', height: '194px', borderRadius: '24px' }}
+                      style={{ width: '300px', height: '230px', borderRadius: '24px' }}
                       />
                     </figure>
                     <div className="card-body text-justify" style={{ marginTop: '-26px', position: 'relative' }}> </div>
                       <h1 className="card-title pt-2" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '16px', marginTop: '-12px', wordSpacing: '1px', marginLeft: '15px' }}>
                         2022 Freebies: Printables & Phone Wallpapers
                       </h1>
-                  </div>
+                        <a
+                            href="/About/LifeAtBookClub"
+                            className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500"
+                            style={{ 
+                              color:"#484848", 
+                              fontSize: '14px', 
+                              padding: '5px 10px', 
+                              borderRadius: '5px', 
+                              marginTop: '15px',
+                              marginLeft: '200px',
+                              backgroundColor: "#FFF3C7",
+                              fontFamily: 'kaisei tokumin'
+                            }}
+                        >
+                          See More
+                        </a>
+                        </div>
+
                 </div>
+                
             </div>
                
           </motion.div>
