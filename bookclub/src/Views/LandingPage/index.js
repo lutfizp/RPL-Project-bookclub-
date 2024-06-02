@@ -399,7 +399,7 @@ const LandingPage = () => {
                 </div>
                 
                 <div className="card card-compact w-80 bg-[#C8AE7D] shadow-xl">
-                  <figure className="px-10 pt-5"><img src="images/BookTalk2.1.png" alt="Shoes" /></figure>
+                  <figure className="px-10 pt-5"><img src="images/life_at_SerambiBuku.png" alt="Shoes" /></figure>
                   <div className="card-body">
                   <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
                     EVENT</h2>
