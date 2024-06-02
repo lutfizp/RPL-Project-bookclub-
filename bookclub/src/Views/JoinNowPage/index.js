@@ -52,7 +52,7 @@ function JoinNowPage() {
           className="container flex justify-center"
         >
           <motion.a
-           href="/About"
+           href="/About/LifeAtBookClub"
             className="px-2 group hover:text-yellow-950"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.3 }}
