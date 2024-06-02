@@ -312,7 +312,7 @@ const LandingPage = () => {
               <p style={{ marginTop: '20px', color: '#F8F0E5', fontFamily: 'kaisei tokumin' }}>
               Serambi Buku<br/>Founded since 2015
               </p>
-          </aside>
+            </aside>
             <nav style={{ marginLeft: '150px', marginTop: '40px', color: '#F8F0E5', fontFamily: 'kaisei tokumin' }}>
               <h6 className="card-title">About</h6>
               <a className="link link-hover">Life at BookClub</a><br />
