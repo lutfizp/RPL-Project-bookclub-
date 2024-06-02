@@ -206,181 +206,7 @@ const LandingPage = () => {
 
           </motion.div>
         </div>
-        <div
-          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] flex"
-          id="section-3"
-          ref={ref3}
-        >
-          <motion.div
-            className="hero min-h-screen"
-            variants={boxVariant}
-            initial="hidden"
-            animate={control3}
-          >
-            <div className="mt-40 sm:mt-16">
-              <div style={{ 
-                width: '1000px', 
-                height: '250px', 
-                backgroundColor: '#C8AE7D', 
-                marginTop: '10px', 
-                position: "sticky",
-                borderRadius: '20px' }}>  
-              </div>
-              <h1 className="text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '10px', position: 'sticky'}}>
-                  Our Media Partner
-              </h1>
-              <div className="hero-content flex-col lg:flex-row">
-                <img
-                  src="images/cnbc.png"
-                  className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
-                  alt="Stamp GIF"
-                  style={{ width: '130px', height: '120px', marginLeft: '-5px' }}
-                />
-                <img
-                  src="images/gramedia.png"
-                  className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
-                  alt="Stamp GIF"
-                  style={{ width: '130px', height: '120px', marginLeft: '40px' }}
-                />
-                <img
-                  src="images/mandiri.png"
-                  className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
-                  alt="Stamp GIF"
-                  style={{ width: '160px', height: '120px', marginLeft: '30px' }}
-                />
-                <img
-                  src="images/tokopedia.png"
-                  className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
-                  alt="Stamp GIF"
-                  style={{ width: '140px', height: '120px', marginLeft: '20px' }}
-                />
-                <img
-                  src="images/unnes.png"
-                  className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
-                  alt="Stamp GIF"
-                  style={{ width: '100px', height: '120px', marginLeft: '40px' }}
-                />
-              </div>
-            </div>
-            <div className="hero-content flex-col lg:flex-row">
-              <pre className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '-300px', position: 'sticky', marginRight: '200px'}}>
-                By The
-                Number
-              </pre>
-              <pre className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '-300px', position: 'sticky', marginRight: '200px'}}>
-                5.900+
-              </pre>
-              <pre className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '-200px', position: 'sticky', marginRight: '150px'}}>
-                1.000+
-              </pre>
-            </div>
-            <div className="hero-content flex-col lg:flex-row">
-              <pre className="text-4xl animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '15px', marginTop: '-230px', position: 'sticky', marginRight: '130px'}}>
-                Founded in 2015,
-              </pre>
-              <pre className="sm:max-w-sm sm:max-h-sm py-6 text-justify" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '15px', marginTop: '-250px', position: 'sticky', marginRight: '-90px'}}>
-                Active Members listed in our 
-                community until now.
-              </pre>
-              <pre className="sm:max-w-sm sm:max-h-sm py-6 text-justify" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '15px', marginTop: '-150px', position: 'sticky', marginLeft: '30px'}}>
-              Partners collaborating to create 
-              activities, events, and contents.
-              </pre>
-            </div>
-            <div className="hero-content flex-col lg:flex-row">
-              <pre className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '-90px', position: 'sticky', marginLeft: '250px'}}>
-                93.000+
-              </pre>
-              <pre className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '-10px', position: 'sticky', marginLeft: '220px'}}>
-                52+
-              </pre>
-            </div>
-            <div className="hero-content flex-col lg:flex-row">
-              <pre className="sm:max-w-sm sm:max-h-sm py-6 text-justify" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '15px', marginTop: '-40px', position: 'sticky', marginLeft: '300px'}}>
-                Audience in our social media.
-              </pre>
-              <pre className="sm:max-w-sm sm:max-h-sm py-6 text-justify" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '15px', marginTop: '40px', position: 'sticky', marginLeft: '70px'}}>
-                Active Volunteers running our community.
-              </pre>
-            </div>
-          </motion.div>
-        </div>
-        <div
-          className="carousel-item h-screen w-screen bg-gradient-to-b from-[#FFF3C7] from-95% to-[#FFF3C7] flex"
-          id="section-4"
-          ref={ref4}
-        >
-          <motion.div
-            className="hero min-h-screen"
-            variants={boxVariant}
-            initial="hidden"
-            animate={control4}
-          >
-            
-            <div className="mt-40 sm:mt-16">
-              <h1 className="text-4xl font-bold animate-fade-up text-center" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginTop: '10px', position: 'sticky'}}>
-                  Latest Update
-              </h1>
-              
-              <div className="hero-content flex-col lg:flex-row">
-                <div className="card card-compact w-80 bg-[#C8AE7D] shadow-xl">
-                  <figure className="px-10 pt-5"><img src="images/event1.png" alt="Shoes" /></figure>
-                  <div className="card-body">
-                  <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
-                  KOMPETISI </h2>
-                  <p style={{ fontFamily: 'Tinos'}}>
-                    Perlombaan yang diadakan oleh Perpustakaan Bank Indonesi Riau </p>
-                  <div className="card-actions justify-end">
-                  <a
-                  href="/About/LifeAtBookClub"
-                  className="btn transition ease-in-out delay-50 bg-[#FFF3C7] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
-                  style={{ color:"#484848" }}
-                  >
-                    See More
-                  </a>
-                  </div>
-                  </div>
-                </div>
-                
-                <div className="card card-compact w-80 bg-[#C8AE7D] shadow-xl">
-                  <figure className="px-10 pt-5"><img src="images/event2.png" alt="Shoes" /></figure>
-                  <div className="card-body">
-                  <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
-                    EVENT</h2>
-                  <p style={{ fontFamily: 'Tinos'}}>Flores Writers Festival 2022 di Ende: Mari Bermain di Halaman</p>
-                  <div className="card-actions justify-end">
-                  <a
-                  href="/About/LifeAtBookClub"
-                  className="btn transition ease-in-out delay-50 bg-[#FFF3C7] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
-                  style={{ color:"#484848" }}
-                  >
-                    See More
-                  </a>
-                  </div>
-                  </div>
-                </div>
-                
-                <div className="card card-compact w-80 bg-[#C8AE7D] shadow-xl">
-                  <figure className="px-10 pt-5"><img src="images/event3.png" alt="Shoes" /></figure>
-                  <div className="card-body">
-                  <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
-                    EVENT</h2>
-                  <p style={{ fontFamily: 'Tinos'}}>Memori dan Metafora di Flores Writers Festival 3 “Sadang Bui” di Maumere</p>
-                  <div className="card-actions justify-end">
-                  <a
-                  href="/About/LifeAtBookClub"
-                  className="btn transition ease-in-out delay-50 bg-[#FFF3C7] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
-                  style={{ color:"#484848" }}
-                  >
-                    See More
-                  </a>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </motion.div>
-        </div>
+        
         <div
           className="carousel-item h-screen w-screen bg-[#FFF3C7] flex"
           id="section-5"
@@ -397,9 +223,9 @@ const LandingPage = () => {
                 width: '1000px', 
                 height: '240px', 
                 backgroundColor: '#C8AE7D', 
-                marginTop: '-220px', 
+                marginTop: '-300px', 
                 position: "sticky",
-                borderRadius: '20px' }}>
+                borderRadius: '20px' }}>  
                 <a
                   href="/JoinNow"
                   className="btn transition ease-in-out delay-50 bg-[#FFF3C7] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500 ..."
@@ -409,37 +235,56 @@ const LandingPage = () => {
                   </a>
               </div>
             </div>
-            <pre className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Kaisei Tokumin', color:"#484848", fontSize: '40px', marginTop: '-300px', position: 'sticky', marginRight: '450px'}}>
+            <pre className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Kaisei Tokumin', color:"#484848", fontSize: '40px', marginTop: '-400px', position: 'sticky', marginRight: '450px'}}>
                 Subscribe To Our Update!
             </pre>
-            <pre className="text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Kaisei Tokumin', color:"#484848", fontSize: '17px', marginTop: '-200px', position: 'sticky', marginRight: '550px'}}>
+            <pre className="text-4xl font-bold animate-fade-up " style={{ fontFamily: 'Kaisei Tokumin', color:"#484848", fontSize: '17px', marginTop: '-300px', position: 'sticky', marginRight: '550px'}}>
                 Get new content delivered directly to your inbox.
             </pre>
-            
-            <footer className="footer p-10 bg-[#222831] text-base-content" style= {{marginBottom:'-335px'}}>
-                <aside>
-                  <img src="images/logo1.png" style={{ width: '120px', height: '120px', marginTop:'-30px'}}></img>
-                <p>Serambi Buku<br/>Founded since 2015</p>
-                </aside> 
-                <nav>
-                  <h6 className="footer-title">Program</h6> 
-                  <a href="/Program/BookTalk" className="link link-hover">BookTalk</a>
-                  <a href="/Program/Competition" className="link link-hover">Competition</a>
-                  <a href="/Program/Freebies" className="link link-hover">Freebies</a>
-                </nav> 
-                <nav>
-                <h6 className="footer-title">Company</h6> 
-                <a href="/About/LifeAtBookClub" className="link link-hover">About us</a>
-                <a href="https://wa.me/6281285183841" className="link link-hover">Contact</a>
-                <a href="/About/SupportUs" className="link link-hover">Support Us</a>
-                </nav> 
-                <nav>
-                <h6 className="footer-title">Legal</h6> 
-                <a className="link link-hover">Terms of use</a>
-                <a className="link link-hover">Privacy policy</a>
-                <a className="link link-hover">Cookie policy</a>
-                </nav>
-              </footer>
+            <div className="mt-80 sm:mt-16" style={{ marginTop: '100px' }}>
+                <div style={{ 
+                    width: '1380px',  // Sesuaikan ukuran width
+                    height: '300px', 
+                    backgroundColor: '#484848', 
+                    marginTop: '300px',  // Sesuaikan marginTop
+                    marginLeft: '-10px',  // Sesuaikan marginLeft
+                    borderRadius: '0px',
+                    display: 'flex',
+                    }}>
+                    <aside style={{ marginLeft: '120px', marginTop: '40px' }}>
+                      <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd" className="fill-current">
+                          <path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path>
+                      </svg>
+                      <p style={{ marginTop: '20px', color: '#F8F0E5', fontFamily: 'kaisei tokumin' }}>
+                        Serambi Buku<br/>Founded since 2015
+                      </p>
+                    </aside>
+                    <nav style={{ marginLeft: '150px', marginTop: '40px', color: '#F8F0E5', fontFamily: 'kaisei tokumin' }}>
+                      <h6 className="card-title">About</h6>
+                        <a className="link link-hover">Life at BookClub</a><br />
+                        <a className="link link-hover">Visi Misi</a><br />
+                        <a className="link link-hover">Support us</a><br />
+                    </nav>
+                    <nav style={{ marginLeft: '150px', marginTop: '40px', color: '#F8F0E5', fontFamily: 'kaisei tokumin' }}>
+                        <h6 className="card-title">Programs</h6>
+                          <a className="link link-hover">BookTalk</a><br />
+                          <a className="link link-hover">Discussion</a><br />
+                          <a className="link link-hover">Webinar</a><br />
+                          <a className="link link-hover">Competition</a><br />
+                          <a className="link link-hover">Freebies</a><br />
+                    </nav>
+                    <nav style={{ marginLeft: '150px', marginTop: '40px', color: '#F8F0E5', fontFamily: 'kaisei tokumin' }}>
+                          <h6 className="card-title">Company</h6>
+                          <a className="link link-hover">About us</a><br />
+                          <a className="link link-hover">Career</a><br />
+                          <a className="link link-hover">Privacy Police</a><br />
+                    </nav>
+                    <nav style={{ marginLeft: '150px', marginTop: '40px', color: '#F8F0E5', fontFamily: 'kaisei tokumin' }}>
+                    <h6 className="card-title">Collaboration</h6>
+                    <a className="link link-hover">Contact us</a><br />
+                    </nav>
+                  </div> 
+                </div>
           </motion.div>
         </div>
       </div>
