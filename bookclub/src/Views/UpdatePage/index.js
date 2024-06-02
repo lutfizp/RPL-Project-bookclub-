@@ -146,7 +146,7 @@ const UpdatePage = () => {
           >
             <div className="hero-content flex-col lg:flex-row" style={{ marginTop: '-5px' }}>
               <div className="md:pr-20 animate-fade-left" style={{ flex: 30 }}>
-                <h1 className="mb-5 mr-80 m:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'kaisei tokumin', color: "#484848", fontSize: '30px', marginLeft: '-35px', marginTop: '-30px' }}>
+                <h1 className="mb-5 mr-80 m:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'kaisei tokumin', color: "#484848", fontSize: '30px', marginLeft: '-35px', marginTop: '50px' }}>
                   Update
                 </h1>
                 <div className="w-[30%] sm:w-[50%] ml-5 mt-2" style={{ marginTop: '-70px' }}> 
@@ -198,7 +198,7 @@ const UpdatePage = () => {
                 </div>
               </div>
                 <div className="w-[30%] sm:w-[30%] ml-75 mr-100">
-                  <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '300px', height: '420px', borderRadius: '29px', marginLeft: '-325px', marginTop: '45px'}}>
+                  <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '300px', height: '420px', borderRadius: '29px', marginLeft: '-325px', marginTop: '114px'}}>
                     <figure className="px-4 pt-5">
                       <img src="/images/update2.jpg" 
                       alt="Shoes" 
@@ -240,7 +240,7 @@ const UpdatePage = () => {
                     </div>
                 </div>
                 <div className="w-[30%] sm:w-[30%] ml-75 mr-100">
-                  <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '300px', height: '420px', borderRadius: '29px', marginLeft: '32px', marginTop: '55px'}}>
+                  <div className="card677777 bg-gradient-to-b from-[#C8AE7D] from-95% to-[#C8AE7D]  shadow-xl animate-fade-up" style={{ width: '300px', height: '420px', borderRadius: '29px', marginLeft: '32px', marginTop: '104px'}}>
                     <figure className="px-4 pt-5">
                       <img src="/images/update3.jpg" 
                       alt="Shoes" 
@@ -360,7 +360,7 @@ const UpdatePage = () => {
                     <h6 className="card-title">Collaboration</h6>
                     <a className="link link-hover">Contact us</a><br />
                     </nav>
-                  </div>
+                  </div> 
                 </div>
           </motion.div>
         </div>
