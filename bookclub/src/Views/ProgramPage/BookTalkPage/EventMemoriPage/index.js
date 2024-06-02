@@ -143,7 +143,7 @@ const LandingPage = () => {
             <div className="hero-content flex-col lg:flex-row" style={{ }}>
               <div className="md:pr-20 animate-fade-left" style={{ flex: 30 }}>
                 <h1 className="sm:max-w-sm sm:max-h-sm text-4xl font-bold animate-fade-up" style={{ fontFamily: 'Tinos', color:"#484848", fontSize: '30px', marginRight:'-50px'}}>
-                  Update
+                  Discussion
                 </h1>
                 <img
                 src="/../images/Booktalk3.png"
