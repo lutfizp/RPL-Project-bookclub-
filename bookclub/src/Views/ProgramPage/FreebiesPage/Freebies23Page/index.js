@@ -222,27 +222,27 @@ const LandingPage = () => {
                     </aside>
                     <nav style={{ marginLeft: '150px', marginTop: '40px', color: '#F8F0E5', fontFamily: 'kaisei tokumin' }}>
                       <h6 className="card-title">About</h6>
-                        <a className="link link-hover">Life at BookClub</a><br />
-                        <a className="link link-hover">Visi Misi</a><br />
-                        <a className="link link-hover">Support us</a><br />
+                        <a href="/About/LifeAtBookClub" className="link link-hover">Life at BookClub</a><br />
+                        <a href="/About/VisiMisi" className="link link-hover">Visi Misi</a><br />
+                        <a href="/About/SupportUs" className="link link-hover">Support us</a><br />
                     </nav>
                     <nav style={{ marginLeft: '150px', marginTop: '40px', color: '#F8F0E5', fontFamily: 'kaisei tokumin' }}>
                         <h6 className="card-title">Programs</h6>
-                          <a className="link link-hover">BookTalk</a><br />
-                          <a className="link link-hover">Discussion</a><br />
-                          <a className="link link-hover">Webinar</a><br />
-                          <a className="link link-hover">Competition</a><br />
-                          <a className="link link-hover">Freebies</a><br />
+                          <a href="/Program/BookTalk" className="link link-hover">BookTalk</a><br />
+                          <a href="/Program/BookTalk" className="link link-hover">Discussion</a><br />
+                          <a href="/Program/BookTalk" className="link link-hover">Webinar</a><br />
+                          <a href="/Program/Competition" className="link link-hover">Competition</a><br />
+                          <a href="/Program/Freebies" className="link link-hover">Freebies</a><br />
                     </nav>
                     <nav style={{ marginLeft: '150px', marginTop: '40px', color: '#F8F0E5', fontFamily: 'kaisei tokumin' }}>
                           <h6 className="card-title">Company</h6>
-                          <a className="link link-hover">About us</a><br />
+                          <a href="/About/LifeAtBookClub" className="link link-hover">About us</a><br />
                           <a className="link link-hover">Career</a><br />
                           <a className="link link-hover">Privacy Police</a><br />
                     </nav>
                     <nav style={{ marginLeft: '150px', marginTop: '40px', color: '#F8F0E5', fontFamily: 'kaisei tokumin' }}>
                     <h6 className="card-title">Collaboration</h6>
-                    <a className="link link-hover">Contact us</a><br />
+                    <a href="https://wa.me/6281285183841" className="link link-hover">Contact us</a><br />
                     </nav>
                   </div> 
                 </div>
