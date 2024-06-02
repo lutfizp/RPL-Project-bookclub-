@@ -175,7 +175,7 @@ const FreebiesPage = () => {
                           2024 Freebie: Printables & Phone Wallpapers
                         </h1>
                         <a
-                            href="/About/LifeAtBookClub"
+                            href="Freebies/Freebies24"
                             className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500"
                             style={{ 
                               color:"#484848", 
@@ -208,7 +208,7 @@ const FreebiesPage = () => {
                         2023 Freebies: Printables & Phone Wallpapers
                       </h1>
                       <a
-                            href="/About/LifeAtBookClub"
+                            href="Freebies/Freebies23"
                             className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500"
                             style={{ 
                               color:"#484848", 
@@ -238,7 +238,7 @@ const FreebiesPage = () => {
                         2022 Freebies: Printables & Phone Wallpapers
                       </h1>
                         <a
-                            href="/About/LifeAtBookClub"
+                            href="Freebies/Freebies22"
                             className="btn transition ease-in-out delay-50 bg-[#C8AE7D] shadow-xl text-black border-none hover:-translate-y-1 hover:scale-110 hover:bg-[#63CFF9] hover:text-white hover:border-white duration-500"
                             style={{ 
                               color:"#484848", 
