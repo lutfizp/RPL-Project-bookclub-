@@ -472,22 +472,22 @@ const LandingPage = () => {
                 Get new content delivered directly to your inbox.
             </pre>
             
-            <footer className="footer p-10 bg-[#222831] text-base-content" style= {{marginBottom:'-335px'}}>
+            <footer className="footer p-10 bg-black text-base-content" style= {{marginBottom:'-335px'}}>
                 <aside>
                   <img src="images/logo1.png" style={{ width: '120px', height: '120px', marginTop:'-30px'}}></img>
                 <p>Serambi Buku<br/>Founded since 2015</p>
                 </aside> 
                 <nav>
                   <h6 className="footer-title">Program</h6> 
-                  <a href="/Program/BookTalk" className="link link-hover">BookTalk</a>
-                  <a href="/Program/Competition" className="link link-hover">Competition</a>
-                  <a href="/Program/Freebies" className="link link-hover">Freebies</a>
+                  <a href="/Program/BookTalk" className="link link-hover" >BookTalk</a>
+                  <a href="/Program/Competition" className="link link-hover" >Competition</a>
+                  <a href="/Program/Freebies" className="link link-hover" >Freebies</a>
                 </nav> 
                 <nav>
                 <h6 className="footer-title">Company</h6> 
-                <a href="/About/LifeAtBookClub" className="link link-hover">About us</a>
-                <a href="https://wa.me/6281285183841" className="link link-hover">Contact</a>
-                <a href="/About/SupportUs" className="link link-hover">Support Us</a>
+                <a href="/About/LifeAtBookClub" className="link link-hover" >About us</a>
+                <a href="https://wa.me/6281285183841" className="link link-hover" >Contact</a>
+                <a href="/About/SupportUs" className="link link-hover" >Support Us</a>
                 </nav> 
                 <nav>
                 <h6 className="footer-title">Legal</h6> 

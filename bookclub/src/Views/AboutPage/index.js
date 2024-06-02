@@ -303,7 +303,7 @@ const LandingPage = () => {
                 Get new content delivered directly to your inbox.
             </pre>
             
-            <footer className="footer p-10 bg-base-200 text-base-content" style= {{marginBottom:'-335px'}}>
+            <footer className="footer p-10 bg-black text-base-content" style= {{marginBottom:'-335px'}}>
                 <aside>
                   <img src="images/logo1.png" style={{ width: '120px', height: '120px', marginTop:'-30px'}}></img>
                 <p>Serambi Buku<br/>Founded since 2015</p>
