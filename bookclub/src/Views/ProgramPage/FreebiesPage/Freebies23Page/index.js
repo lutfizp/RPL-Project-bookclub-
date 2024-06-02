@@ -193,31 +193,31 @@ const LandingPage = () => {
               </h1>
               <div className="hero-content flex-col lg:flex-row">
                 <img
-                  src="images/cnbc.png"
+                  src="/../images/cnbc.png"
                   className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
                   alt="Stamp GIF"
                   style={{ width: '130px', height: '120px', marginLeft: '-5px' }}
                 />
                 <img
-                  src="images/gramedia.png"
+                  src="/../images/gramedia.png"
                   className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
                   alt="Stamp GIF"
                   style={{ width: '130px', height: '120px', marginLeft: '40px' }}
                 />
                 <img
-                  src="images/mandiri.png"
+                  src="/../images/mandiri.png"
                   className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
                   alt="Stamp GIF"
                   style={{ width: '160px', height: '120px', marginLeft: '30px' }}
                 />
                 <img
-                  src="images/tokopedia.png"
+                  src="/../images/tokopedia.png"
                   className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
                   alt="Stamp GIF"
                   style={{ width: '140px', height: '120px', marginLeft: '20px' }}
                 />
                 <img
-                  src="images/unnes.png"
+                  src="/../images/unnes.png"
                   className="max-w-lg sm:max-w-sm sm:max-h-sm rounded-lg"
                   alt="Stamp GIF"
                   style={{ width: '100px', height: '120px', marginLeft: '40px' }}
@@ -286,7 +286,7 @@ const LandingPage = () => {
               
               <div className="hero-content flex-col lg:flex-row">
                 <div className="card card-compact w-80 bg-[#C8AE7D] shadow-xl">
-                  <figure className="px-10 pt-5"><img src="images/event1.png" alt="Shoes" /></figure>
+                  <figure className="px-10 pt-5"><img src="/../images/event1.png" alt="Shoes" /></figure>
                   <div className="card-body">
                   <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
                   KOMPETISI </h2>
@@ -305,7 +305,7 @@ const LandingPage = () => {
                 </div>
                 
                 <div className="card card-compact w-80 bg-[#C8AE7D] shadow-xl">
-                  <figure className="px-10 pt-5"><img src="images/event2.png" alt="Shoes" /></figure>
+                  <figure className="px-10 pt-5"><img src="/../images/event2.png" alt="Shoes" /></figure>
                   <div className="card-body">
                   <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
                     EVENT</h2>
@@ -323,7 +323,7 @@ const LandingPage = () => {
                 </div>
                 
                 <div className="card card-compact w-80 bg-[#C8AE7D] shadow-xl">
-                  <figure className="px-10 pt-5"><img src="images/event3.png" alt="Shoes" /></figure>
+                  <figure className="px-10 pt-5"><img src="/../images/event3.png" alt="Shoes" /></figure>
                   <div className="card-body">
                   <h2 className="card-title" style={{ fontFamily: 'Tinos', color:"Black", fontSize: '15px', position: 'sticky'}}>
                     EVENT</h2>
